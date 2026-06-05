@@ -101,6 +101,10 @@ I work in the open on a small number of hard problems:
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-eef5ff?style=flat-square&logo=typescript&logoColor=3178C6)
 ![Python](https://img.shields.io/badge/Python-eef5ff?style=flat-square&logo=python&logoColor=3776AB)
+![Java](https://img.shields.io/badge/Java-eef5ff?style=flat-square&logo=openjdk&logoColor=ED8B00)
+![C#](https://img.shields.io/badge/C%23-eef5ff?style=flat-square&logo=csharp&logoColor=512BD4)
+![C++](https://img.shields.io/badge/C%2B%2B-eef5ff?style=flat-square&logo=cplusplus&logoColor=00599C)
+![C](https://img.shields.io/badge/C-eef5ff?style=flat-square&logo=c&logoColor=283593)
 ![Go](https://img.shields.io/badge/Go-eef5ff?style=flat-square&logo=go&logoColor=00ADD8)
 ![Rust](https://img.shields.io/badge/Rust-eef5ff?style=flat-square&logo=rust&logoColor=1f2733)
 
@@ -151,7 +155,7 @@ I work in the open on a small number of hard problems:
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=St0lym&show_icons=true&count_private=true&hide=&hide_border=true&hide_title=true&card_width=440&title_color=1f6feb&icon_color=1f6feb&text_color=46566b&bg_color=ffffff" alt="Public GitHub stats for St0lym">
 &nbsp;
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=St0lym&layout=compact&hide_border=true&hide_title=true&langs_count=8&card_width=320&title_color=1f6feb&text_color=46566b&bg_color=ffffff" alt="Top public languages for St0lym">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=St0lym&layout=compact&hide_border=true&hide_title=true&langs_count=10&card_width=320&title_color=1f6feb&text_color=46566b&bg_color=ffffff" alt="Top public languages for St0lym">
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=St0lym&bg_color=ffffff&color=1f6feb&line=1f6feb&point=1f6feb&area=true&area_color=eaf2ff&hide_border=true&hide_title=true" width="96%" alt="Recent contribution activity for St0lym">
 

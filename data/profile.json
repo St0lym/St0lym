@@ -36,7 +36,7 @@
     "Retrieval, memory and code intelligence"
   ],
   "stack": {
-    "languages": ["TypeScript", "Python", "Go", "Rust", "JavaScript"],
+    "languages": ["TypeScript", "Python", "Java", "C#", "C++", "C", "Go", "Rust", "JavaScript"],
     "frameworks": ["Next.js", "React", "Node.js", "Tailwind"],
     "data": ["PostgreSQL", "Redis", "Prisma", "GraphQL", "Kafka"],
     "cloud": ["Docker", "AWS", "GitHub Actions", "Jupyter"]
