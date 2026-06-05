@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Caishen — strategic intelligence engine for financial signals and analytics">
+  <defs>
+    <linearGradient id="ca-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef5ff"/>
+    </linearGradient>
+    <linearGradient id="ca-ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <style>
+      .ttl{font:800 30px -apple-system,Segoe UI,Inter,sans-serif;fill:#0d1b2e}
+      .dsc{font:500 16px -apple-system,Segoe UI,sans-serif;fill:#46566b}
+      .chip{fill:#eaf2ff} .chipT{font:600 12px -apple-system,Segoe UI,sans-serif;fill:#1f6feb}
+      .kind{font:600 11px -apple-system,Segoe UI,sans-serif;fill:#7c8aa0;letter-spacing:.14em}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="558" height="298" rx="18" fill="url(#ca-bg)" stroke="#d6e4fb" stroke-width="1.4"/>
+
+  <!-- motif: signal line + candles -->
+  <g opacity="0.6">
+    <polyline points="392,120 414,96 436,108 462,72 488,84 514,52" fill="none" stroke="#1f6feb" stroke-width="2"/>
+    <g fill="#bcd6ff"><rect x="408" y="96" width="8" height="34"/><rect x="456" y="72" width="8" height="46"/><rect x="504" y="52" width="8" height="58"/></g>
+    <circle cx="514" cy="52" r="4" fill="#38bdf8"/>
+  </g>
+
+  <g transform="translate(34,30)">
+    <path d="M26 0 L52 15 L52 45 L26 60 L0 45 L0 15 Z" fill="#fff" stroke="url(#ca-ac)" stroke-width="2.4"/>
+    <polyline points="10,40 19,30 27,36 42,16" fill="none" stroke="url(#ca-ac)" stroke-width="2.4"/>
+    <circle cx="42" cy="16" r="3" fill="#38bdf8"/>
+  </g>
+
+  <text x="34" y="146" class="kind">STRATEGIC INTELLIGENCE · SIGNALS</text>
+  <text x="34" y="184" class="ttl">Caishen</text>
+  <text x="34" y="218" class="dsc">Strategic intelligence engine for</text>
+  <text x="34" y="240" class="dsc">financial signals &amp; analytics.</text>
+
+  <g>
+    <rect class="chip" x="34"  y="258" width="96"  height="26" rx="13"/><text x="82"  y="275" text-anchor="middle" class="chipT">TypeScript</text>
+    <rect class="chip" x="138" y="258" width="96"  height="26" rx="13"/><text x="186" y="275" text-anchor="middle" class="chipT">PostgreSQL</text>
+    <rect class="chip" x="242" y="258" width="72"  height="26" rx="13"/><text x="278" y="275" text-anchor="middle" class="chipT">Python</text>
+  </g>
+</svg>

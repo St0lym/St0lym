@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-label="St0lym — Jack Marques, Node. AI Systems Architect, Researcher, Founder of Stakon. Designing systems that create impact.">
+  <defs>
+    <linearGradient id="skyd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.6" stop-color="#0d1626"/>
+      <stop offset="1" stop-color="#0a1322"/>
+    </linearGradient>
+    <radialGradient id="glowd" cx="74%" cy="28%" r="50%">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.30"/>
+      <stop offset="0.5" stop-color="#1f6feb" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accd" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="faded" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.0"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0.30"/>
+    </linearGradient>
+    <style>
+      .named{font:800 92px -apple-system,Segoe UI,Inter,sans-serif;fill:#eaf2ff;letter-spacing:-1px}
+      .subd{font:600 26px -apple-system,Segoe UI,Inter,sans-serif;fill:#c4d4ec}
+      .roled{font:600 19px -apple-system,Segoe UI,sans-serif;fill:#8aa0c0;letter-spacing:.02em}
+      .tagd{font:500 italic 22px Georgia,serif;fill:#aebfdc}
+      .jpd{font:600 15px -apple-system,Segoe UI,sans-serif;fill:#4a6da0;letter-spacing:.3em}
+    </style>
+  </defs>
+
+  <rect width="1600" height="520" fill="url(#skyd)"/>
+  <rect width="1600" height="520" fill="url(#glowd)"/>
+
+  <g stroke="#27406b" fill="none" opacity="0.9">
+    <ellipse cx="1180" cy="210" rx="300" ry="120" transform="rotate(-18 1180 210)" stroke-width="1.2"/>
+    <ellipse cx="1180" cy="210" rx="210" ry="84"  transform="rotate(-18 1180 210)" stroke-width="1" stroke-dasharray="2 7"/>
+    <circle cx="1180" cy="210" r="120" stroke="#2b486f" stroke-width="1"/>
+  </g>
+  <circle cx="1372" cy="150" r="4" fill="#60a5fa"/>
+  <circle cx="980"  cy="262" r="3" fill="#3b82f6"/>
+  <circle cx="1280" cy="318" r="3" fill="#7aa2d8"/>
+
+  <g fill="url(#faded)">
+    <rect x="900"  y="360" width="34" height="160"/><rect x="940"  y="300" width="40" height="220"/>
+    <rect x="986"  y="340" width="26" height="180"/><rect x="1018" y="250" width="46" height="270"/>
+    <rect x="1070" y="330" width="30" height="190"/><rect x="1106" y="220" width="52" height="300"/>
+    <rect x="1164" y="300" width="34" height="220"/><rect x="1204" y="180" width="58" height="340"/>
+    <rect x="1268" y="290" width="30" height="230"/><rect x="1304" y="250" width="44" height="270"/>
+    <rect x="1354" y="320" width="28" height="200"/><rect x="1388" y="270" width="50" height="250"/>
+    <rect x="1444" y="340" width="32" height="180"/><rect x="1482" y="240" width="48" height="280"/>
+    <rect x="1536" y="300" width="34" height="220"/>
+  </g>
+
+  <g transform="translate(96,70)">
+    <path d="M30 0 L60 17 L60 51 L30 68 L0 51 L0 17 Z" fill="#0d1626" stroke="url(#accd)" stroke-width="2.4"/>
+    <path d="M18 52 L18 16 L23 16 L41 42 L41 16 L46 16 L46 52 L41 52 L23 26 L23 52 Z" fill="url(#accd)"/>
+  </g>
+  <text x="170" y="118" class="jpd">未来をデザインする</text>
+
+  <text x="92" y="232" class="named">St0lym</text>
+  <text x="98" y="276" class="subd">Jack Marques <tspan fill="#60a5fa">/ Node</tspan></text>
+
+  <text x="98" y="330" class="roled">AI Systems Architect</text>
+  <text x="98" y="360" class="roled">Researcher</text>
+  <text x="98" y="390" class="roled">Founder of <tspan fill="#60a5fa">Stakon</tspan></text>
+
+  <line x1="100" y1="416" x2="148" y2="416" stroke="#60a5fa" stroke-width="3"/>
+  <text x="98" y="456" class="tagd">Designing systems that create <tspan fill="#60a5fa" font-style="italic">impact</tspan>.</text>
+</svg>

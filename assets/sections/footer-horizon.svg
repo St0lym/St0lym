@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="240" viewBox="0 0 1600 240" role="img" aria-label="Stay curious. Ship relentlessly. Elevate others.">
+  <defs>
+    <linearGradient id="fh-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f9ff"/><stop offset="1" stop-color="#e3eeff"/>
+    </linearGradient>
+    <style>
+      .ph{font:600 italic 26px Georgia,serif;fill:#2a3645}
+      .jp{font:600 16px -apple-system,Segoe UI,sans-serif;fill:#9db4d6;letter-spacing:.3em}
+      .sg{font:600 13px -apple-system,Segoe UI,sans-serif;fill:#7c8aa0;letter-spacing:.16em}
+    </style>
+  </defs>
+  <rect width="1600" height="240" fill="url(#fh-sky)"/>
+
+  <!-- sumi-e horizon: distant range + calm water lines -->
+  <path d="M0 168 Q220 120 420 156 T880 150 Q1120 118 1340 156 T1600 150 L1600 240 L0 240 Z" fill="#d6e6ff" opacity="0.7"/>
+  <path d="M0 196 Q300 172 620 190 T1240 188 T1600 184 L1600 240 L0 240 Z" fill="#c4dbff" opacity="0.6"/>
+  <g stroke="#bcd6ff" stroke-width="1" opacity="0.7">
+    <line x1="120" y1="214" x2="320" y2="214"/><line x1="1280" y1="214" x2="1480" y2="214"/>
+    <line x1="200" y1="226" x2="360" y2="226"/><line x1="1240" y1="226" x2="1400" y2="226"/>
+  </g>
+  <circle cx="1300" cy="78" r="34" fill="#ffffff" opacity="0.9"/>
+  <circle cx="1300" cy="78" r="34" fill="none" stroke="#cfe3ff" stroke-width="1.2"/>
+
+  <text x="800" y="80"  text-anchor="middle" class="jp">「未来は、創るものだ。」</text>
+  <text x="800" y="118" text-anchor="middle" class="ph">Stay curious. Ship relentlessly. Elevate others.</text>
+  <text x="800" y="150" text-anchor="middle" class="sg">NODE · 未来設計 · EST. 2026</text>
+</svg>

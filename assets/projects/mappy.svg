@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Mappy — geospatial extraction and mapping intelligence for modern apps">
+  <defs>
+    <linearGradient id="ma-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef5ff"/>
+    </linearGradient>
+    <linearGradient id="ma-ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <style>
+      .ttl{font:800 30px -apple-system,Segoe UI,Inter,sans-serif;fill:#0d1b2e}
+      .dsc{font:500 16px -apple-system,Segoe UI,sans-serif;fill:#46566b}
+      .chip{fill:#eaf2ff} .chipT{font:600 12px -apple-system,Segoe UI,sans-serif;fill:#1f6feb}
+      .kind{font:600 11px -apple-system,Segoe UI,sans-serif;fill:#7c8aa0;letter-spacing:.14em}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="558" height="298" rx="18" fill="url(#ma-bg)" stroke="#d6e4fb" stroke-width="1.4"/>
+
+  <!-- motif: geo grid + pin -->
+  <g opacity="0.55" stroke="#bcd6ff" stroke-width="1" fill="none">
+    <path d="M392 40 L520 40 M392 80 L520 80 M392 120 L520 120"/>
+    <path d="M412 28 L412 132 M452 28 L452 132 M492 28 L492 132"/>
+  </g>
+  <path d="M468 56 a20 20 0 1 0 0.01 0 M468 70 v34" fill="none" stroke="#1f6feb" stroke-width="2.2"/>
+  <circle cx="468" cy="74" r="6" fill="#38bdf8"/>
+
+  <g transform="translate(34,30)">
+    <path d="M26 0 L52 15 L52 45 L26 60 L0 45 L0 15 Z" fill="#fff" stroke="url(#ma-ac)" stroke-width="2.4"/>
+    <path d="M26 14 a11 11 0 1 0 0.01 0 M26 22 v20" fill="none" stroke="url(#ma-ac)" stroke-width="2.4"/>
+    <circle cx="26" cy="25" r="3.4" fill="url(#ma-ac)"/>
+  </g>
+
+  <text x="34" y="146" class="kind">GEOSPATIAL · EXTRACTION</text>
+  <text x="34" y="184" class="ttl">Mappy</text>
+  <text x="34" y="218" class="dsc">Geospatial extraction &amp; mapping</text>
+  <text x="34" y="240" class="dsc">intelligence for modern apps.</text>
+
+  <g>
+    <rect class="chip" x="34"  y="258" width="96"  height="26" rx="13"/><text x="82"  y="275" text-anchor="middle" class="chipT">TypeScript</text>
+    <rect class="chip" x="138" y="258" width="82"  height="26" rx="13"/><text x="179" y="275" text-anchor="middle" class="chipT">Node.js</text>
+    <rect class="chip" x="228" y="258" width="86"  height="26" rx="13"/><text x="271" y="275" text-anchor="middle" class="chipT">PostGIS</text>
+  </g>
+</svg>

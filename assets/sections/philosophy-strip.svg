@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="160" viewBox="0 0 1600 160" role="img" aria-label="The best way to predict the future is to build it. — Alan Kay">
+  <defs>
+    <linearGradient id="ps-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef5ff"/><stop offset="1" stop-color="#e3eeff"/>
+    </linearGradient>
+    <style>
+      .q{font:600 italic 30px Georgia,serif;fill:#1f2733}
+      .a{font:600 15px -apple-system,Segoe UI,sans-serif;fill:#1f6feb;letter-spacing:.1em}
+    </style>
+  </defs>
+  <rect width="1600" height="160" fill="url(#ps-bg)"/>
+  <g opacity="0.5" stroke="#bcd6ff" fill="none">
+    <circle cx="160" cy="80" r="46"/><circle cx="160" cy="80" r="30" stroke-dasharray="2 6"/>
+    <circle cx="1440" cy="80" r="46"/><circle cx="1440" cy="80" r="30" stroke-dasharray="2 6"/>
+  </g>
+  <text x="120" y="74" font="700 60px Georgia,serif" fill="#cfe3ff" style="font:700 60px Georgia,serif;fill:#cfe3ff">“</text>
+  <text x="800" y="78" text-anchor="middle" class="q">The best way to predict the future is to build it.</text>
+  <text x="800" y="112" text-anchor="middle" class="a">— ALAN KAY</text>
+</svg>

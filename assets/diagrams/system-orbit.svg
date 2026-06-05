@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-label="Node system map: Research, Data, Products, Autonomous Systems and Stakon orbiting NODE">
+  <defs>
+    <radialGradient id="so-core" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eaf2ff"/>
+    </radialGradient>
+    <linearGradient id="so-n" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <style>
+      .orbit{fill:none;stroke:#dbe7fb;stroke-width:1.2}
+      .link{stroke:#cfe3ff;stroke-width:1.6}
+      .chip{fill:#ffffff;stroke:#cfe3ff;stroke-width:1.4}
+      .chipT{font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#3a4658}
+      .sub{font:500 10px -apple-system,Segoe UI,sans-serif;fill:#8b97a8}
+      .cap{font:600 11px -apple-system,Segoe UI,sans-serif;fill:#1f6feb;letter-spacing:.12em}
+      .dot{fill:#1f6feb}
+    </style>
+  </defs>
+
+  <text x="300" y="26" text-anchor="middle" class="cap">NODE · SYSTEM MAP</text>
+
+  <ellipse class="orbit" cx="300" cy="210" rx="190" ry="155" stroke-dasharray="2 6"/>
+  <circle  class="orbit" cx="300" cy="210" r="150" stroke-dasharray="2 6"/>
+
+  <!-- links -->
+  <g class="link">
+    <line x1="300" y1="210" x2="300"   y2="78"/>
+    <line x1="300" y1="210" x2="430.7" y2="163.6"/>
+    <line x1="300" y1="210" x2="376.2" y2="319.4"/>
+    <line x1="300" y1="210" x2="223.8" y2="319.4"/>
+    <line x1="300" y1="210" x2="169.3" y2="163.6"/>
+  </g>
+  <g class="dot">
+    <circle cx="300" cy="78" r="3"/><circle cx="430.7" cy="163.6" r="3"/>
+    <circle cx="376.2" cy="319.4" r="3"/><circle cx="223.8" cy="319.4" r="3"/>
+    <circle cx="169.3" cy="163.6" r="3"/>
+  </g>
+
+  <!-- satellites -->
+  <g>
+    <rect class="chip" x="252" y="44" width="96" height="40" rx="10"/>
+    <text x="300" y="62" text-anchor="middle" class="chipT">Research</text>
+    <text x="300" y="76" text-anchor="middle" class="sub">frontier &amp; inquiry</text>
+  </g>
+  <g>
+    <rect class="chip" x="388" y="143" width="104" height="40" rx="10"/>
+    <text x="440" y="161" text-anchor="middle" class="chipT">Products</text>
+    <text x="440" y="175" text-anchor="middle" class="sub">tools that ship</text>
+  </g>
+  <g>
+    <rect class="chip" x="318" y="300" width="140" height="40" rx="10"/>
+    <text x="388" y="318" text-anchor="middle" class="chipT">Autonomous Systems</text>
+    <text x="388" y="332" text-anchor="middle" class="sub">agents &amp; orchestration</text>
+  </g>
+  <g>
+    <rect class="chip" x="158" y="300" width="120" height="40" rx="10" stroke="#1f6feb"/>
+    <text x="218" y="318" text-anchor="middle" class="chipT" fill="#1f6feb">Stakon</text>
+    <text x="218" y="332" text-anchor="middle" class="sub">holding &amp; ecosystem</text>
+  </g>
+  <g>
+    <rect class="chip" x="120" y="143" width="96" height="40" rx="10"/>
+    <text x="168" y="161" text-anchor="middle" class="chipT">Data</text>
+    <text x="168" y="175" text-anchor="middle" class="sub">signal &amp; memory</text>
+  </g>
+
+  <!-- core -->
+  <circle cx="300" cy="210" r="52" fill="url(#so-core)" stroke="#cfe3ff" stroke-width="1.4"/>
+  <path d="M300 168 L336 189 L336 231 L300 252 L264 231 L264 189 Z" fill="#ffffff" stroke="url(#so-n)" stroke-width="2.4"/>
+  <path d="M286 232 L286 188 L291 188 L313 220 L313 188 L319 188 L319 232 L313 232 L291 200 L291 232 Z" fill="url(#so-n)"/>
+  <text x="300" y="300" text-anchor="middle" class="sub" style="font-size:11px;fill:#1f6feb;letter-spacing:.1em">NODE</text>
+</svg>

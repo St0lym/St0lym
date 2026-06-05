@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Research — open lab for autonomous agents, small models and code intelligence">
+  <defs>
+    <linearGradient id="re-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef5ff"/>
+    </linearGradient>
+    <linearGradient id="re-ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <style>
+      .ttl{font:800 30px -apple-system,Segoe UI,Inter,sans-serif;fill:#0d1b2e}
+      .dsc{font:500 16px -apple-system,Segoe UI,sans-serif;fill:#46566b}
+      .chip{fill:#eaf2ff} .chipT{font:600 12px -apple-system,Segoe UI,sans-serif;fill:#1f6feb}
+      .kind{font:600 11px -apple-system,Segoe UI,sans-serif;fill:#7c8aa0;letter-spacing:.14em}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="558" height="298" rx="18" fill="url(#re-bg)" stroke="#d6e4fb" stroke-width="1.4"/>
+
+  <!-- motif: atom / orbits -->
+  <g opacity="0.6" fill="none" stroke="#bcd6ff" stroke-width="1.4">
+    <ellipse cx="456" cy="88" rx="62" ry="24"/>
+    <ellipse cx="456" cy="88" rx="62" ry="24" transform="rotate(60 456 88)"/>
+    <ellipse cx="456" cy="88" rx="62" ry="24" transform="rotate(-60 456 88)"/>
+  </g>
+  <circle cx="456" cy="88" r="6" fill="#1f6feb"/>
+  <circle cx="514" cy="78" r="3.5" fill="#38bdf8"/><circle cx="416" cy="118" r="3.5" fill="#38bdf8"/>
+
+  <g transform="translate(34,30)">
+    <path d="M26 0 L52 15 L52 45 L26 60 L0 45 L0 15 Z" fill="#fff" stroke="url(#re-ac)" stroke-width="2.4"/>
+    <circle cx="26" cy="30" r="4" fill="url(#re-ac)"/>
+    <ellipse cx="26" cy="30" rx="16" ry="7" fill="none" stroke="url(#re-ac)" stroke-width="1.8"/>
+    <ellipse cx="26" cy="30" rx="16" ry="7" fill="none" stroke="url(#re-ac)" stroke-width="1.8" transform="rotate(60 26 30)"/>
+  </g>
+
+  <text x="34" y="146" class="kind">OPEN LAB · FRONTIER</text>
+  <text x="34" y="184" class="ttl">Research</text>
+  <text x="34" y="218" class="dsc">Open lab for autonomous agents,</text>
+  <text x="34" y="240" class="dsc">small models &amp; code intelligence.</text>
+
+  <g>
+    <rect class="chip" x="34"  y="258" width="72"  height="26" rx="13"/><text x="70"  y="275" text-anchor="middle" class="chipT">Python</text>
+    <rect class="chip" x="114" y="258" width="84"  height="26" rx="13"/><text x="156" y="275" text-anchor="middle" class="chipT">Jupyter</text>
+    <rect class="chip" x="206" y="258" width="86"  height="26" rx="13"/><text x="249" y="275" text-anchor="middle" class="chipT">PyTorch</text>
+  </g>
+</svg>

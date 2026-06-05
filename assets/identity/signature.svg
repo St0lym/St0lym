@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="80" viewBox="0 0 280 80" role="img" aria-label="St0lym signature">
+  <defs>
+    <linearGradient id="sg-ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="46" font="700 38px 'Brush Script MT',Segoe Script,cursive" fill="#1f2733"
+        style="font-family:'Segoe Script','Brush Script MT',cursive;font-size:40px;font-weight:700;fill:#1f2733">St0lym</text>
+  <path d="M2 58 Q90 70 200 56" fill="none" stroke="url(#sg-ac)" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="200" cy="56" r="3" fill="#38bdf8"/>
+  <text x="2" y="76" style="font-family:-apple-system,Segoe UI,sans-serif;font-size:11px;letter-spacing:.18em;fill:#9db4d6">JACK MARQUES · NODE</text>
+</svg>

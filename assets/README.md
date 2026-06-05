@@ -1,20 +1,40 @@
-# assets/
+# assets/ — visual system
 
-Visual assets for the **St0lym/St0lym** profile README.
+The direction art for **St0lym/St0lym** lives here, not in the Markdown.
+GitHub renders PNG, JPEG, GIF and **SVG** inline, so structural pieces
+(diagrams, marks, cards) ship as hand-authored SVG and the photographic
+hero/footer ship as raster.
 
-| File | Used by | Recommended spec |
-|------|---------|------------------|
-| `hero.png` | hero banner (light mode) | wide landscape, ~1600×520, PNG |
-| `hero-dark.png` | hero banner (dark mode) | same dimensions, dark variant |
+## Folder map
 
-The hero is referenced from the root `README.md` via a `<picture>` element,
-so the dark variant is optional — if `hero-dark.png` is missing, GitHub falls
-back to `hero.png` for everyone.
+| Folder | Holds | Format | Status |
+|--------|-------|--------|--------|
+| `hero/` | full-width banner, light/dark/mobile | **SVG now → WebP later** | ✅ SVG placeholders render today |
+| `identity/` | node mark, avatar, signature | SVG | ✅ final |
+| `projects/` | one card per featured system | SVG | ✅ final placeholders |
+| `diagrams/` | radar, system map, workflow, focus | SVG | ✅ final |
+| `sections/` | section dividers, footer horizon | SVG | ✅ final |
+| `generated/` | live stats snapshots | SVG (CI-written) | ⚙️ produced by Action |
 
-## Generating the hero
+## Conventions
 
-Drop the artwork produced from your image-generation prompt here. Target the
-**soft editorial anime / airy blue** direction (Style A) or the
-**clean system-design / blueprint** direction (Style B) — both validated.
+- **Palette** — white `#ffffff`, off-white `#f4f9ff`, pale blue `#eaf2ff`,
+  sky `#cfe3ff`, accent `#1f6feb` / `#3b82f6`, cyan hint `#38bdf8`,
+  ink `#0d1b2e`, steel text `#46566b`. Dark: bg `#0b1220`, accent `#60a5fa`.
+- **Dimensions** — hero `1600×520`, mobile `800×600`, project card `560×300`,
+  section strip `1600×120–240`, mark `120×120`, avatar `200×200`.
+- **Light/dark** — anything in the hero ships in both variants and is wired
+  through a `<picture>` element in the root README.
 
-Crop to a clean wide banner so the page stays breathable at the top.
+## Upgrading the hero to generated artwork
+
+The hero is currently a premium SVG placeholder so the profile reads cleanly
+**today**. To swap in anime-style generated artwork:
+
+1. Generate the banner (soft editorial anime / airy blue — Style A, fused with
+   the system-design rigor of Style B). Target `1600×520`, calm and breathable.
+2. Export `hero-light.webp` and `hero-dark.webp` (+ `hero-mobile.webp`) here.
+3. In the root `README.md`, change the hero `srcset`/`src` extensions from
+   `.svg` to `.webp`. Nothing else changes — the `<picture>` markup is ready.
+
+> Keep raster light: WebP, < 250 KB each. The SVGs stay as fallback.

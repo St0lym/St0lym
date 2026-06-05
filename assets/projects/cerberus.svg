@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Cerberus — zero-trust orchestration for autonomous, distributed systems">
+  <defs>
+    <linearGradient id="ce-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef5ff"/>
+    </linearGradient>
+    <linearGradient id="ce-ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <style>
+      .ttl{font:800 30px -apple-system,Segoe UI,Inter,sans-serif;fill:#0d1b2e}
+      .dsc{font:500 16px -apple-system,Segoe UI,sans-serif;fill:#46566b}
+      .chip{fill:#eaf2ff} .chipT{font:600 12px -apple-system,Segoe UI,sans-serif;fill:#1f6feb}
+      .kind{font:600 11px -apple-system,Segoe UI,sans-serif;fill:#7c8aa0;letter-spacing:.14em}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="558" height="298" rx="18" fill="url(#ce-bg)" stroke="#d6e4fb" stroke-width="1.4"/>
+
+  <!-- motif: shield + triad guardians -->
+  <g opacity="0.55">
+    <path d="M452 32 L500 50 L500 92 Q500 128 452 150 Q404 128 404 92 L404 50 Z" fill="none" stroke="#bcd6ff" stroke-width="1.4"/>
+    <circle cx="452" cy="78" r="6" fill="#1f6feb"/>
+    <circle cx="430" cy="104" r="5" fill="#38bdf8"/><circle cx="474" cy="104" r="5" fill="#38bdf8"/>
+    <g stroke="#cfe3ff" stroke-width="1.4"><line x1="452" y1="78" x2="430" y2="104"/><line x1="452" y1="78" x2="474" y2="104"/></g>
+  </g>
+
+  <g transform="translate(34,30)">
+    <path d="M26 0 L52 15 L52 45 L26 60 L0 45 L0 15 Z" fill="#fff" stroke="url(#ce-ac)" stroke-width="2.4"/>
+    <path d="M26 12 L42 19 L42 34 Q42 47 26 52 Q10 47 10 34 L10 19 Z" fill="none" stroke="url(#ce-ac)" stroke-width="2.2"/>
+    <circle cx="26" cy="30" r="3.4" fill="url(#ce-ac)"/>
+  </g>
+
+  <text x="34" y="146" class="kind">ZERO-TRUST · ORCHESTRATION</text>
+  <text x="34" y="184" class="ttl">Cerberus</text>
+  <text x="34" y="218" class="dsc">Zero-trust orchestration for</text>
+  <text x="34" y="240" class="dsc">autonomous, distributed systems.</text>
+
+  <g>
+    <rect class="chip" x="34"  y="258" width="48"  height="26" rx="13"/><text x="58"  y="275" text-anchor="middle" class="chipT">Go</text>
+    <rect class="chip" x="90"  y="258" width="74"  height="26" rx="13"/><text x="127" y="275" text-anchor="middle" class="chipT">Docker</text>
+    <rect class="chip" x="172" y="258" width="100" height="26" rx="13"/><text x="222" y="275" text-anchor="middle" class="chipT">Kubernetes</text>
+  </g>
+</svg>

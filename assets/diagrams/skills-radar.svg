@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="380" viewBox="0 0 460 380" role="img" aria-label="Skills radar: AI/ML, System Design, Backend Engineering, Frontend Design, DevOps and Cloud, Research and Data">
+  <defs>
+    <linearGradient id="sr-fill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0.18"/>
+    </linearGradient>
+    <style>
+      .axis{stroke:#dbe7fb;stroke-width:1}
+      .ring{fill:none;stroke:#e8f0ff;stroke-width:1}
+      .ringo{fill:none;stroke:#cfe3ff;stroke-width:1.2}
+      .lbl{font:600 13px/1.2 -apple-system,Segoe UI,Inter,sans-serif;fill:#3a4658}
+      .cap{font:600 11px -apple-system,Segoe UI,sans-serif;fill:#1f6feb;letter-spacing:.12em}
+    </style>
+  </defs>
+
+  <text x="230" y="26" text-anchor="middle" class="cap">SKILLS RADAR</text>
+
+  <!-- grid rings -->
+  <polygon class="ring"  points="230,82.5 314.4,131.25 314.4,228.75 230,277.5 145.6,228.75 145.6,131.25"/>
+  <polygon class="ring"  points="230,115 286.3,147.5 286.3,212.5 230,245 173.7,212.5 173.7,147.5"/>
+  <polygon class="ring"  points="230,147.5 258.1,163.75 258.1,196.25 230,212.5 201.9,196.25 201.9,163.75"/>
+  <polygon class="ringo" points="230,50 342.6,115 342.6,245 230,310 117.4,245 117.4,115"/>
+
+  <!-- axes -->
+  <g class="axis">
+    <line x1="230" y1="180" x2="230"   y2="50"/>
+    <line x1="230" y1="180" x2="342.6" y2="115"/>
+    <line x1="230" y1="180" x2="342.6" y2="245"/>
+    <line x1="230" y1="180" x2="230"   y2="310"/>
+    <line x1="230" y1="180" x2="117.4" y2="245"/>
+    <line x1="230" y1="180" x2="117.4" y2="115"/>
+  </g>
+
+  <!-- data polygon (AI/ML .95, SystemDesign .85, Backend .8, Frontend .7, DevOps .75, Research .9) -->
+  <polygon fill="url(#sr-fill)" stroke="#1f6feb" stroke-width="2"
+           points="230,56.5 325.7,124.8 320.1,232 230,271 145.6,228.8 128.7,121.5"/>
+  <g fill="#1f6feb">
+    <circle cx="230"   cy="56.5"  r="3.5"/>
+    <circle cx="325.7" cy="124.8" r="3.5"/>
+    <circle cx="320.1" cy="232"   r="3.5"/>
+    <circle cx="230"   cy="271"   r="3.5"/>
+    <circle cx="145.6" cy="228.8" r="3.5"/>
+    <circle cx="128.7" cy="121.5" r="3.5"/>
+  </g>
+
+  <!-- labels -->
+  <text x="230" y="42"  text-anchor="middle" class="lbl">AI / ML</text>
+  <text x="350" y="110" text-anchor="start"  class="lbl">System Design</text>
+  <text x="350" y="252" text-anchor="start"  class="lbl">Backend Eng.</text>
+  <text x="230" y="332" text-anchor="middle" class="lbl">Frontend Design</text>
+  <text x="110" y="252" text-anchor="end"    class="lbl">DevOps &amp; Cloud</text>
+  <text x="110" y="110" text-anchor="end"    class="lbl">Research &amp; Data</text>
+</svg>
