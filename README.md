@@ -130,5 +130,5 @@ I work in the open on a small number of hard problems:
 
 <!-- ░░░░░░░░░░░░░░░░░░░░  FOOTER  ░░░░░░░░░░░░░░░░░░░░ -->
 <div align="center">
-<img src="./assets/sections/footer-horizon.svg" width="100%" alt="Stay curious. Ship relentlessly. Elevate others. 「未来は、創るものだ。」 NODE · 未来設計 · EST. 2026">
+<img src="./assets/sections/footer-horizon.svg" width="100%" alt="Stay curious. Ship relentlessly. Elevate others. 「未来是创造出来的。」 NODE · 未来设计 · EST. 2026">
 </div>

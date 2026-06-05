@@ -64,7 +64,7 @@
     <path d="M30 0 L60 17 L60 51 L30 68 L0 51 L0 17 Z" fill="#ffffff" stroke="url(#acc)" stroke-width="2.4"/>
     <path d="M18 52 L18 16 L23 16 L41 42 L41 16 L46 16 L46 52 L41 52 L23 26 L23 52 Z" fill="url(#acc)"/>
   </g>
-  <text x="170" y="118" class="jp">未来をデザインする</text>
+  <text x="170" y="118" class="jp">设计未来</text>
 
   <!-- identity -->
   <text x="92" y="232" class="name">St0lym</text>

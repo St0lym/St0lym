@@ -13,10 +13,10 @@
     "My work sits at the intersection of artificial intelligence, distributed systems, research, product architecture and automation."
   ],
   "philosophy": "Stay curious. Ship relentlessly. Elevate others.",
-  "jp": {
-    "hero": "未来をデザインする",
-    "footer": "「未来は、創るものだ。」",
-    "seal": "未来設計"
+  "zh": {
+    "hero": "设计未来",
+    "footer": "「未来是创造出来的。」",
+    "seal": "未来设计"
   },
   "skills": {
     "AI / ML": 0.95,
