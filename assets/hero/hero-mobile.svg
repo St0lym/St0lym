@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="St0lym — Jack Marques, Node. AI Systems Architect, Researcher, Founder of Stakon.">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="St0lym — Jacques Marques, Node. AI Systems Architect, Researcher, Founder of Stakon.">
   <defs>
     <linearGradient id="m-sky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3eeff"/>
@@ -43,7 +43,7 @@
 
   <text x="400" y="276" text-anchor="middle" class="mj">未来をデザインする</text>
   <text x="400" y="350" text-anchor="middle" class="mn">St0lym</text>
-  <text x="400" y="386" text-anchor="middle" class="ms">Jack Marques <tspan fill="#1f6feb">/ Node</tspan></text>
+  <text x="400" y="386" text-anchor="middle" class="ms">Jacques Marques <tspan fill="#1f6feb">/ Node</tspan></text>
   <text x="400" y="426" text-anchor="middle" class="mr">AI Systems Architect · Researcher</text>
   <text x="400" y="452" text-anchor="middle" class="mr">Founder of <tspan fill="#1f6feb">Stakon</tspan></text>
   <text x="400" y="492" text-anchor="middle" class="mt">Designing systems that create <tspan fill="#1f6feb">impact</tspan>.</text>

@@ -1,12 +1,12 @@
 {
   "$schema": "./profile.schema.json",
   "handle": "St0lym",
-  "name": "Jack Marques",
+  "name": "Jacques Marques",
   "alias": "Node",
   "roles": ["AI Systems Architect", "Researcher", "Founder of Stakon"],
   "tagline": "Designing systems that create impact.",
-  "location": "Paris, France",
-  "website": "https://stolym.dev",
+  "location": "Geneva, Switzerland",
+  "website": "https://st0lym.stakon.fr",
   "status": "Available for consulting",
   "about": [
     "I build AI systems, autonomous infrastructure and experimental tools designed to transform complex ideas into operational products.",
@@ -42,9 +42,9 @@
     "cloud": ["Docker", "AWS", "GitHub Actions", "Jupyter"]
   },
   "links": {
-    "website": "https://stolym.dev",
+    "website": "https://st0lym.stakon.fr",
     "github": "https://github.com/St0lym",
-    "linkedin": "https://linkedin.com/in/st0lym",
+    "linkedin": "https://www.linkedin.com/in/jacques-marques-497a13168/",
     "x": "https://x.com/St0lym_",
     "email": "hello@stolym.dev"
   },

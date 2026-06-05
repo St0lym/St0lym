@@ -6,11 +6,11 @@
 
 <!-- ░░░░░░░░░░░░░░░░░░░░  HERO  ░░░░░░░░░░░░░░░░░░░░ -->
 <div align="center">
-<a href="https://stolym.dev">
+<a href="https://st0lym.stakon.fr">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero/hero-light.svg">
-    <img src="./assets/hero/hero-light.svg" alt="St0lym — Jack Marques / Node · AI Systems Architect · Researcher · Founder of Stakon · Designing systems that create impact." width="100%">
+    <img src="./assets/hero/hero-light.svg" alt="St0lym — Jacques Marques / Node · AI Systems Architect · Researcher · Founder of Stakon · Designing systems that create impact." width="100%">
   </picture>
 </a>
 </div>
@@ -33,8 +33,8 @@ first question to the shipped system.
 <td width="28%" valign="top" align="center">
 
 <img src="./assets/identity/node-avatar.svg" width="120" alt="Node"><br>
-<sub><b>Paris, France</b><br>
-<a href="https://stolym.dev">stolym.dev</a> · open to consulting</sub>
+<sub><b>Geneva, Switzerland</b><br>
+<a href="https://st0lym.stakon.fr">st0lym.stakon.fr</a> · open to consulting</sub>
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ first question to the shipped system.
 
 <table border="0">
 <tr>
-<td width="50%"><a href="https://stolym.dev"><img src="./assets/projects/stakon.svg" width="100%" alt="Stakon — holding and operating ecosystem for AI-native ventures"></a></td>
+<td width="50%"><a href="https://st0lym.stakon.fr"><img src="./assets/projects/stakon.svg" width="100%" alt="Stakon — holding and operating ecosystem for AI-native ventures"></a></td>
 <td width="50%"><img src="./assets/projects/cerberus.svg" width="100%" alt="Cerberus — zero-trust orchestration for autonomous, distributed systems"></td>
 </tr>
 <tr>
@@ -93,11 +93,54 @@ I work in the open on a small number of hard problems:
 <!-- ░░░░░░░░░░░░░░░░░░░░  TECH  ░░░░░░░░░░░░░░░░░░░░ -->
 ## Tools of the trade
 
-<div align="center">
+<!-- Sober, on-palette chips (pale-blue bg, brand-colour logos). Grouped, not a wall. -->
+<table border="0">
+<tr>
+<td valign="middle" align="right" width="20%"><sub><b>LANGUAGES</b></sub></td>
+<td valign="middle">
 
-`TypeScript` · `Python` · `Go` · `Rust` &nbsp;|&nbsp; `Next.js` · `React` · `Node.js` &nbsp;|&nbsp; `PostgreSQL` · `Redis` · `Kafka` · `GraphQL` &nbsp;|&nbsp; `Docker` · `AWS` · `GitHub Actions`
+![TypeScript](https://img.shields.io/badge/TypeScript-eef5ff?style=flat-square&logo=typescript&logoColor=3178C6)
+![Python](https://img.shields.io/badge/Python-eef5ff?style=flat-square&logo=python&logoColor=3776AB)
+![Go](https://img.shields.io/badge/Go-eef5ff?style=flat-square&logo=go&logoColor=00ADD8)
+![Rust](https://img.shields.io/badge/Rust-eef5ff?style=flat-square&logo=rust&logoColor=1f2733)
 
-</div>
+</td>
+</tr>
+<tr>
+<td valign="middle" align="right"><sub><b>WEB</b></sub></td>
+<td valign="middle">
+
+![Next.js](https://img.shields.io/badge/Next.js-eef5ff?style=flat-square&logo=nextdotjs&logoColor=1f2733)
+![React](https://img.shields.io/badge/React-eef5ff?style=flat-square&logo=react&logoColor=149ECA)
+![Node.js](https://img.shields.io/badge/Node.js-eef5ff?style=flat-square&logo=nodedotjs&logoColor=339933)
+![Tailwind](https://img.shields.io/badge/Tailwind-eef5ff?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+
+</td>
+</tr>
+<tr>
+<td valign="middle" align="right"><sub><b>DATA &amp; BACKEND</b></sub></td>
+<td valign="middle">
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-eef5ff?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Redis](https://img.shields.io/badge/Redis-eef5ff?style=flat-square&logo=redis&logoColor=DC382D)
+![Kafka](https://img.shields.io/badge/Kafka-eef5ff?style=flat-square&logo=apachekafka&logoColor=1f2733)
+![GraphQL](https://img.shields.io/badge/GraphQL-eef5ff?style=flat-square&logo=graphql&logoColor=E10098)
+![Prisma](https://img.shields.io/badge/Prisma-eef5ff?style=flat-square&logo=prisma&logoColor=2D3748)
+
+</td>
+</tr>
+<tr>
+<td valign="middle" align="right"><sub><b>CLOUD &amp; OPS</b></sub></td>
+<td valign="middle">
+
+![Docker](https://img.shields.io/badge/Docker-eef5ff?style=flat-square&logo=docker&logoColor=2496ED)
+![AWS](https://img.shields.io/badge/AWS-eef5ff?style=flat-square&logo=amazonwebservices&logoColor=232F3E)
+![GitHub Actions](https://img.shields.io/badge/Actions-eef5ff?style=flat-square&logo=githubactions&logoColor=2088FF)
+![Jupyter](https://img.shields.io/badge/Jupyter-eef5ff?style=flat-square&logo=jupyter&logoColor=F37626)
+
+</td>
+</tr>
+</table>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░  LIVE GITHUB DATA  ░░░░░░░░░░░░░░░░░░░░ -->
 ## Activity
@@ -124,7 +167,7 @@ I work in the open on a small number of hard problems:
 
 <div align="center">
 
-[**stolym.dev**](https://stolym.dev) &nbsp;·&nbsp; [**LinkedIn**](https://linkedin.com/in/st0lym) &nbsp;·&nbsp; [**X / Twitter**](https://x.com/St0lym_) &nbsp;·&nbsp; [**hello@stolym.dev**](mailto:hello@stolym.dev)
+[**st0lym.stakon.fr**](https://st0lym.stakon.fr) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/jacques-marques-497a13168/) &nbsp;·&nbsp; [**X / Twitter**](https://x.com/St0lym_) &nbsp;·&nbsp; [**GitHub**](https://github.com/St0lym)
 
 </div>
 
