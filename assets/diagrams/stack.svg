@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360" role="img" aria-label="Tech stack. Languages: TypeScript, Python, Java, C#, C++, C, Go, Rust. Web: Next.js, React, Node.js, Tailwind. Data and Backend: PostgreSQL, Redis, Kafka, GraphQL, Prisma. Cloud and Ops: Docker, AWS, GitHub Actions, Jupyter.">
+  <defs>
+    <linearGradient id="sk-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f4f9ff"/>
+    </linearGradient>
+    <linearGradient id="sk-ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <style>
+      .cap{font:600 11px -apple-system,Segoe UI,sans-serif;fill:#1f6feb;letter-spacing:.14em}
+      .lane{font:700 11px -apple-system,Segoe UI,sans-serif;fill:#7c8aa0;letter-spacing:.1em}
+      .chip{fill:#eef5ff;stroke:#d6e4fb;stroke-width:1.2}
+      .chipA{fill:#e3edff;stroke:#1f6feb;stroke-width:1.3}
+      .ct{font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#2a3645}
+      .cta{font:700 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#1f6feb}
+      .div{stroke:#eaf2ff;stroke-width:1}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="818" height="358" rx="18" fill="url(#sk-bg)" stroke="#d6e4fb" stroke-width="1.4"/>
+
+  <!-- header -->
+  <g transform="translate(34,26)">
+    <path d="M9 0 L18 5 L18 15 L9 20 L0 15 L0 5 Z" fill="#fff" stroke="url(#sk-ac)" stroke-width="1.6"/>
+    <path d="M6 16 L6 4 L8 4 L13 12 L13 4 L15 4 L15 16 L13 16 L8 8 L8 16 Z" fill="url(#sk-ac)"/>
+  </g>
+  <text x="66" y="40" class="cap">TECH STACK</text>
+
+  <line class="div" x1="34" y1="58" x2="786" y2="58"/>
+  <line class="div" x1="160" y1="64" x2="160" y2="338"/>
+
+  <!-- LANGUAGES (center y 102) -->
+  <text x="150" y="106" text-anchor="end" class="lane">LANGUAGES</text>
+  <g>
+    <rect class="chipA" x="170" y="87" width="106" height="30" rx="15"/><text x="223" y="106" text-anchor="middle" class="cta">TypeScript</text>
+    <rect class="chipA" x="288" y="87" width="76"  height="30" rx="15"/><text x="326" y="106" text-anchor="middle" class="cta">Python</text>
+    <rect class="chip"  x="376" y="87" width="60"  height="30" rx="15"/><text x="406" y="106" text-anchor="middle" class="ct">Java</text>
+    <rect class="chip"  x="448" y="87" width="45"  height="30" rx="15"/><text x="470.5" y="106" text-anchor="middle" class="ct">C#</text>
+    <rect class="chip"  x="505" y="87" width="53"  height="30" rx="15"/><text x="531.5" y="106" text-anchor="middle" class="ct">C++</text>
+    <rect class="chip"  x="570" y="87" width="38"  height="30" rx="15"/><text x="589" y="106" text-anchor="middle" class="ct">C</text>
+    <rect class="chip"  x="620" y="87" width="45"  height="30" rx="15"/><text x="642.5" y="106" text-anchor="middle" class="ct">Go</text>
+    <rect class="chip"  x="677" y="87" width="60"  height="30" rx="15"/><text x="707" y="106" text-anchor="middle" class="ct">Rust</text>
+  </g>
+
+  <!-- WEB (center y 168) -->
+  <text x="150" y="172" text-anchor="end" class="lane">WEB</text>
+  <g>
+    <rect class="chipA" x="170" y="153" width="83" height="30" rx="15"/><text x="211.5" y="172" text-anchor="middle" class="cta">Next.js</text>
+    <rect class="chip"  x="265" y="153" width="68" height="30" rx="15"/><text x="299" y="172" text-anchor="middle" class="ct">React</text>
+    <rect class="chip"  x="345" y="153" width="83" height="30" rx="15"/><text x="386.5" y="172" text-anchor="middle" class="ct">Node.js</text>
+    <rect class="chip"  x="440" y="153" width="91" height="30" rx="15"/><text x="485.5" y="172" text-anchor="middle" class="ct">Tailwind</text>
+  </g>
+
+  <!-- DATA & BACKEND (center y 234) -->
+  <text x="150" y="238" text-anchor="end" class="lane">DATA &amp; BACKEND</text>
+  <g>
+    <rect class="chipA" x="170" y="219" width="106" height="30" rx="15"/><text x="223" y="238" text-anchor="middle" class="cta">PostgreSQL</text>
+    <rect class="chip"  x="288" y="219" width="68"  height="30" rx="15"/><text x="322" y="238" text-anchor="middle" class="ct">Redis</text>
+    <rect class="chip"  x="368" y="219" width="68"  height="30" rx="15"/><text x="402" y="238" text-anchor="middle" class="ct">Kafka</text>
+    <rect class="chip"  x="448" y="219" width="83"  height="30" rx="15"/><text x="489.5" y="238" text-anchor="middle" class="ct">GraphQL</text>
+    <rect class="chip"  x="543" y="219" width="76"  height="30" rx="15"/><text x="581" y="238" text-anchor="middle" class="ct">Prisma</text>
+  </g>
+
+  <!-- CLOUD & OPS (center y 300) -->
+  <text x="150" y="304" text-anchor="end" class="lane">CLOUD &amp; OPS</text>
+  <g>
+    <rect class="chipA" x="170" y="285" width="76"  height="30" rx="15"/><text x="208" y="304" text-anchor="middle" class="cta">Docker</text>
+    <rect class="chip"  x="258" y="285" width="53"  height="30" rx="15"/><text x="284.5" y="304" text-anchor="middle" class="ct">AWS</text>
+    <rect class="chip"  x="323" y="285" width="136" height="30" rx="15"/><text x="391" y="304" text-anchor="middle" class="ct">GitHub Actions</text>
+    <rect class="chip"  x="471" y="285" width="83"  height="30" rx="15"/><text x="512.5" y="304" text-anchor="middle" class="ct">Jupyter</text>
+  </g>
+
+  <text x="786" y="338" text-anchor="end" class="lane" style="fill:#aab8cc">PRIMARY · ACCENT</text>
+</svg>
