@@ -9,12 +9,17 @@ hero/footer ship as raster.
 
 | Folder | Holds | Format | Status |
 |--------|-------|--------|--------|
-| `hero/` | full-width banner, light/dark/mobile | **SVG now → WebP later** | ✅ SVG placeholders render today |
-| `identity/` | node mark, avatar, signature | SVG | ✅ final |
-| `projects/` | one card per featured system | SVG | ✅ final placeholders |
-| `diagrams/` | radar, system map, workflow, focus | SVG | ✅ final |
+| `illustrations/` | hero (light/dark/mobile), avatar, capabilities | **WebP** | ✅ live raster art |
+| `illustrations/scenes/` | cinematic art per featured system | WebP | ✅ used in README |
+| `illustrations/logos/` | serif brand logos (Stakon … Node) | WebP | 🗂️ available (white bg — light mode) |
+| `diagrams/` | radar, node map, workflow, stack, focus | SVG | ✅ final |
 | `sections/` | section dividers, footer horizon | SVG | ✅ final |
+| `hero/` `identity/` `projects/` | original hand-authored SVG placeholders | SVG | 💤 superseded by `illustrations/`, kept as fallback |
 | `generated/` | live stats snapshots | SVG (CI-written) | ⚙️ produced by Action |
+
+> Raster art is sourced from `external/` (raw generations, git-ignored) and
+> converted to WebP with ffmpeg: photographic frames lossy q84–86, flat logos
+> lossless. Budgets honoured — hero ≈ 80–105 KB, avatar 35 KB, scenes ≤ 90 KB.
 
 ## Conventions
 

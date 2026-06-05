@@ -1,18 +1,31 @@
 <!-- ╔══════════════════════════════════════════════════════════════════════╗
      ║  St0lym / St0lym  ·  GitHub profile                                   ║
      ║  Visual system lives in /assets — this file is composition + text.   ║
-     ║  Hero is an SVG placeholder today; swap to .webp art (see assets/).   ║
+     ║  Raster art (hero, avatar, scenes) in /assets/illustrations (.webp).  ║
+     ║  Diagrams (radar, node map, workflow, stack) in /assets/diagrams.     ║
      ╚══════════════════════════════════════════════════════════════════════╝ -->
 
 <!-- ░░░░░░░░░░░░░░░░░░░░  HERO  ░░░░░░░░░░░░░░░░░░░░ -->
 <div align="center">
 <a href="https://st0lym.stakon.fr">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/hero-light.svg">
-    <img src="./assets/hero/hero-light.svg" alt="St0lym — Jacques Marques / Node · AI Systems Architect · Researcher · Founder of Stakon · Designing systems that create impact." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/illustrations/hero-dark.webp">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/illustrations/hero-light.webp">
+    <img src="./assets/illustrations/hero-light.webp" alt="St0lym — Node, in a light technical jacket before a luminous futuristic skyline" width="100%">
   </picture>
 </a>
+
+<!-- Identity as real, selectable text (kept out of the image on purpose). -->
+# St0lym
+
+### Jacques Marques · `Node`
+
+**AI Systems Architect** · **Researcher** · **Founder of Stakon**
+
+*Designing systems that create impact.* &nbsp;·&nbsp; 设计未来
+
+**Geneva, Switzerland** &nbsp;·&nbsp; [st0lym.stakon.fr](https://st0lym.stakon.fr) &nbsp;·&nbsp; open to consulting
+
 </div>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░  IDENTITY / ABOUT  ░░░░░░░░░░░░░░░░░░░░ -->
@@ -32,25 +45,55 @@ first question to the shipped system.
 </td>
 <td width="28%" valign="top" align="center">
 
-<img src="./assets/identity/node-avatar.svg" width="120" alt="Node"><br>
-<sub><b>Geneva, Switzerland</b><br>
-<a href="https://st0lym.stakon.fr">st0lym.stakon.fr</a> · open to consulting</sub>
+<img src="./assets/illustrations/node-avatar.webp" width="150" alt="Node — portrait" style="border-radius:12px">
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+<img src="./assets/illustrations/capabilities.webp" width="88%" alt="Systems Thinker — end-to-end perspective · Research Driven — evidence to impact · Product Builder — from idea to adoption · Impact Focused — tech for good and scale">
+</div>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░  FEATURED SYSTEMS  ░░░░░░░░░░░░░░░░░░░░ -->
 ## Featured Systems
 
 <table border="0">
 <tr>
-<td width="50%"><a href="https://st0lym.stakon.fr"><img src="./assets/projects/stakon.svg" width="100%" alt="Stakon — holding and operating ecosystem for AI-native ventures"></a></td>
-<td width="50%"><img src="./assets/projects/cerberus.svg" width="100%" alt="Cerberus — zero-trust orchestration for autonomous, distributed systems"></td>
+<td width="50%" valign="top">
+<a href="https://st0lym.stakon.fr"><img src="./assets/illustrations/scenes/stakon.webp" width="100%" alt="Stakon"></a>
+
+**Stakon** — <sub>HOLDING · ECOSYSTEM</sub><br>
+Holding and operating ecosystem for AI-native ventures.<br>
+`TypeScript` `Next.js` `Monorepo`
+
+</td>
+<td width="50%" valign="top">
+<img src="./assets/illustrations/scenes/cerberus.webp" width="100%" alt="Cerberus">
+
+**Cerberus** — <sub>ZERO-TRUST · ORCHESTRATION</sub><br>
+Zero-trust orchestration for autonomous, distributed systems.<br>
+`Go` `Docker` `Kubernetes`
+
+</td>
 </tr>
 <tr>
-<td width="50%"><img src="./assets/projects/caishen.svg" width="100%" alt="Caishen — strategic intelligence engine for financial signals and analytics"></td>
-<td width="50%"><img src="./assets/projects/mappy.svg" width="100%" alt="Mappy — geospatial extraction and mapping intelligence for modern apps"></td>
+<td width="50%" valign="top">
+<img src="./assets/illustrations/scenes/caishen.webp" width="100%" alt="Caishen">
+
+**Caishen** — <sub>STRATEGIC INTELLIGENCE · SIGNALS</sub><br>
+Strategic intelligence engine for financial signals &amp; analytics.<br>
+`TypeScript` `PostgreSQL` `Python`
+
+</td>
+<td width="50%" valign="top">
+<img src="./assets/illustrations/scenes/mappy.webp" width="100%" alt="Mappy">
+
+**Mappy** — <sub>GEOSPATIAL · EXTRACTION</sub><br>
+Geospatial extraction &amp; mapping intelligence for modern apps.<br>
+`TypeScript` `Node.js` `PostGIS`
+
+</td>
 </tr>
 </table>
 

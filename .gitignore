@@ -26,3 +26,7 @@ tmp/
 # ── Keep design source files out of the repo if heavy ─
 # assets/*.psd
 # assets/*.ai
+
+# ── External source material (raw generations, kits, drafts) ─
+# Working material to pick from — never published with the profile.
+external/
