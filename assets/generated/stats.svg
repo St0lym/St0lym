@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="236" viewBox="0 0 440 236" role="img" aria-label="ACTIVITY · LIVE">
+  <defs>
+    <linearGradient id="g-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f4f9ff"/></linearGradient>
+    <linearGradient id="g-ac" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1f6feb"/></linearGradient>
+    <linearGradient id="g-bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#73c9e8"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="438" height="234" rx="16" fill="url(#g-bg)" stroke="#d6e4fb" stroke-width="1.4"/>
+  <g transform="translate(26,22)">
+    <path d="M9 0 L18 5 L18 15 L9 20 L0 15 L0 5 Z" fill="#fff" stroke="url(#g-ac)" stroke-width="1.6"/>
+    <path d="M6 16 L6 4 L8 4 L13 12 L13 4 L15 4 L15 16 L13 16 L8 8 L8 16 Z" fill="url(#g-ac)"/>
+  </g>
+  <text x="58" y="36" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#1f6feb;letter-spacing:.14em">ACTIVITY · LIVE</text>
+  <line x1="26" y1="50" x2="414" y2="50" stroke="#eaf2ff" stroke-width="1"/>
+  
+  <rect x="26" y="74" width="200" height="58" rx="12" fill="#ffffff" stroke="#eaf2ff" stroke-width="1"/>
+  <text x="44" y="110" style="font:800 28px -apple-system,Segoe UI,Inter,sans-serif;fill:#0d1b2e">8</text>
+  <text x="208" y="112" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0;letter-spacing:.06em">PUBLIC REPOS</text>
+  <rect x="240" y="74" width="200" height="58" rx="12" fill="#ffffff" stroke="#eaf2ff" stroke-width="1"/>
+  <text x="258" y="110" style="font:800 28px -apple-system,Segoe UI,Inter,sans-serif;fill:#0d1b2e">0</text>
+  <text x="422" y="112" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0;letter-spacing:.06em">STARS EARNED</text>
+  <rect x="26" y="144" width="200" height="58" rx="12" fill="#ffffff" stroke="#eaf2ff" stroke-width="1"/>
+  <text x="44" y="180" style="font:800 28px -apple-system,Segoe UI,Inter,sans-serif;fill:#0d1b2e">4</text>
+  <text x="208" y="182" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0;letter-spacing:.06em">FOLLOWERS</text>
+  <rect x="240" y="144" width="200" height="58" rx="12" fill="#ffffff" stroke="#eaf2ff" stroke-width="1"/>
+  <text x="258" y="180" style="font:800 28px -apple-system,Segoe UI,Inter,sans-serif;fill:#0d1b2e">6</text>
+  <text x="422" y="182" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0;letter-spacing:.06em">FOLLOWING</text>
+  <text x="26" y="222" style="font:500 11px -apple-system,Segoe UI,Inter,sans-serif;fill:#aab8cc">@St0lym · updated 2026-06-05 · GitHub API</text>
+</svg>

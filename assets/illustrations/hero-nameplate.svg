@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-label="St0lym — Jacques Marques, Node. AI Systems Architect, Researcher, Founder of Stakon. Designing systems that create impact. 设计未来.">
+  <defs>
+    <linearGradient id="np-ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <linearGradient id="np-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#73c9e8" stop-opacity="1"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .name{font:800 86px -apple-system,Segoe UI,Inter,sans-serif;letter-spacing:-1px;fill:#0d1b2e}
+      .sub {font:600 26px -apple-system,Segoe UI,Inter,sans-serif;fill:#2a3645}
+      .node{fill:#1f6feb}
+      .role{font:600 18px -apple-system,Segoe UI,sans-serif;fill:#51607a;letter-spacing:.01em}
+      .tag {font:italic 600 21px Georgia,serif;fill:#3a4658}
+      .acc {fill:#1f6feb}
+      .zh  {font:600 18px -apple-system,Segoe UI,sans-serif;fill:#c2895f;letter-spacing:.28em}
+      .ring{stroke:#cfe3ff}
+      @media (prefers-color-scheme: dark){
+        .name{fill:#eef4ff} .sub{fill:#c8d6ee} .node{fill:#6aa6ff}
+        .role{fill:#93a6c4} .tag{fill:#b6c5e0} .acc{fill:#6aa6ff}
+        .zh{fill:#d9a574} .ring{stroke:#34507f}
+      }
+    </style>
+  </defs>
+
+  <!-- orbital accents (animated) -->
+  <g fill="none" stroke-width="1.2" class="ring" opacity="0.8">
+    <ellipse cx="150" cy="150" rx="92" ry="38" transform="rotate(-18 150 150)"/>
+    <ellipse cx="950" cy="150" rx="92" ry="38" transform="rotate(18 950 150)"/>
+  </g>
+  <g class="acc">
+    <circle cx="150" cy="112" r="3.2"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="188" r="3.2"><animate attributeName="opacity" values="1;0.25;1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="92"  cy="150" r="2.4"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1008" cy="150" r="2.4"><animate attributeName="opacity" values="1;0.4;1" dur="2.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- identity -->
+  <text x="550" y="104" text-anchor="middle" class="name">St0lym</text>
+
+  <!-- animated underline shimmer -->
+  <rect x="430" y="124" width="240" height="3" rx="1.5" class="acc" opacity="0.35"/>
+  <rect x="430" y="124" width="84" height="3" rx="1.5" fill="url(#np-shine)">
+    <animate attributeName="x" values="430;586;430" dur="4.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyTimes="0;0.5;1"/>
+  </rect>
+
+  <text x="550" y="166" text-anchor="middle" class="sub">Jacques Marques <tspan class="node">· Node</tspan></text>
+  <text x="550" y="202" text-anchor="middle" class="role">AI Systems Architect &#160;·&#160; Researcher &#160;·&#160; Founder of <tspan class="acc">Stakon</tspan></text>
+
+  <text x="550" y="246" text-anchor="middle" class="tag">Designing systems that create <tspan class="acc" font-style="italic">impact</tspan>.</text>
+  <text x="550" y="278" text-anchor="middle" class="zh">设计未来</text>
+</svg>

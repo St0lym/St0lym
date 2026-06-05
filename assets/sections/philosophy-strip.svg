@@ -1,19 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="160" viewBox="0 0 1600 160" role="img" aria-label="The best way to predict the future is to build it. — Alan Kay">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="170" viewBox="0 0 1600 170" role="img" aria-label="The best way to predict the future is to build it. — Alan Kay">
   <defs>
-    <linearGradient id="ps-bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="ps-light" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#eef5ff"/><stop offset="1" stop-color="#e3eeff"/>
     </linearGradient>
+    <linearGradient id="ps-dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1626"/><stop offset="1" stop-color="#101d36"/>
+    </linearGradient>
+    <linearGradient id="ps-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#73c9e8" stop-opacity="1"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </linearGradient>
     <style>
-      .q{font:600 italic 30px Georgia,serif;fill:#1f2733}
+      .bg{fill:url(#ps-light)}
+      .q{font:italic 600 30px Georgia,serif;fill:#1f2733}
       .a{font:600 15px -apple-system,Segoe UI,sans-serif;fill:#1f6feb;letter-spacing:.1em}
+      .mark{fill:#cfe3ff} .ring{stroke:#bcd6ff}
+      @media (prefers-color-scheme: dark){
+        .bg{fill:url(#ps-dark)} .q{fill:#e7eefb} .a{fill:#6aa6ff}
+        .mark{fill:#27406b} .ring{stroke:#2b486f}
+      }
     </style>
   </defs>
-  <rect width="1600" height="160" fill="url(#ps-bg)"/>
-  <g opacity="0.5" stroke="#bcd6ff" fill="none">
-    <circle cx="160" cy="80" r="46"/><circle cx="160" cy="80" r="30" stroke-dasharray="2 6"/>
-    <circle cx="1440" cy="80" r="46"/><circle cx="1440" cy="80" r="30" stroke-dasharray="2 6"/>
+  <rect class="bg" width="1600" height="170"/>
+
+  <!-- pulsing orbital marks -->
+  <g class="ring" fill="none">
+    <circle cx="170" cy="85" r="46"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="170" cy="85" r="30" stroke-dasharray="2 6">
+      <animateTransform attributeName="transform" type="rotate" from="0 170 85" to="360 170 85" dur="36s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1430" cy="85" r="46"><animate attributeName="opacity" values="0.9;0.4;0.9" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="1430" cy="85" r="30" stroke-dasharray="2 6">
+      <animateTransform attributeName="transform" type="rotate" from="360 1430 85" to="0 1430 85" dur="36s" repeatCount="indefinite"/>
+    </circle>
   </g>
-  <text x="120" y="74" font="700 60px Georgia,serif" fill="#cfe3ff" style="font:700 60px Georgia,serif;fill:#cfe3ff">“</text>
-  <text x="800" y="78" text-anchor="middle" class="q">The best way to predict the future is to build it.</text>
-  <text x="800" y="112" text-anchor="middle" class="a">— ALAN KAY</text>
+
+  <!-- floating quote mark -->
+  <text x="150" y="78" class="mark" style="font:700 64px Georgia,serif">“
+    <animate attributeName="y" values="78;70;78" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1" keyTimes="0;0.5;1"/>
+  </text>
+
+  <text x="800" y="80" text-anchor="middle" class="q">The best way to predict the future is to build it.</text>
+
+  <!-- shimmer underline -->
+  <rect x="660" y="98" width="280" height="2.5" rx="1.25" class="mark"/>
+  <rect x="660" y="98" width="90" height="2.5" rx="1.25" fill="url(#ps-shine)">
+    <animate attributeName="x" values="660;850;660" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1" keyTimes="0;0.5;1"/>
+  </rect>
+
+  <text x="800" y="128" text-anchor="middle" class="a">— ALAN KAY</text>
 </svg>

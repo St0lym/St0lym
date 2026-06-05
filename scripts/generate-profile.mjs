@@ -38,9 +38,22 @@ async function gh(path) {
 
 const esc = (s) => String(s).replace(/[<>&]/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;" }[c]));
 
-function card(width, height, inner) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img">
-  <rect x="1" y="1" width="${width - 2}" height="${height - 2}" rx="14" fill="${C.bg}" stroke="${C.border}" stroke-width="1.4"/>
+// Shared defs + framed card in the profile's visual language (gradient paper,
+// hex bullet, accent line). Keeps generated cards cohesive with the SVG diagrams.
+function frame(width, height, cap, inner) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(cap)}">
+  <defs>
+    <linearGradient id="g-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f4f9ff"/></linearGradient>
+    <linearGradient id="g-ac" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1f6feb"/></linearGradient>
+    <linearGradient id="g-bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#73c9e8"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="${width - 2}" height="${height - 2}" rx="16" fill="url(#g-bg)" stroke="${C.border}" stroke-width="1.4"/>
+  <g transform="translate(26,22)">
+    <path d="M9 0 L18 5 L18 15 L9 20 L0 15 L0 5 Z" fill="#fff" stroke="url(#g-ac)" stroke-width="1.6"/>
+    <path d="M6 16 L6 4 L8 4 L13 12 L13 4 L15 4 L15 16 L13 16 L8 8 L8 16 Z" fill="url(#g-ac)"/>
+  </g>
+  <text x="58" y="36" style="font:600 12px ${FONT};fill:${C.accent};letter-spacing:.14em">${esc(cap)}</text>
+  <line x1="26" y1="50" x2="${width - 26}" y2="50" stroke="#eaf2ff" stroke-width="1"/>
   ${inner}
 </svg>\n`;
 }
@@ -51,37 +64,35 @@ function statsCard(user, repos) {
   const cells = [
     ["Public repos", user.public_repos],
     ["Stars earned", stars],
-    ["Forks", forks],
     ["Followers", user.followers],
+    ["Following", user.following],
   ];
   const inner = `
-  <text x="28" y="44" style="font:700 18px ${FONT};fill:${C.accent};letter-spacing:.04em">GitHub · live</text>
   ${cells.map(([label, val], i) => {
-    const x = 28 + (i % 2) * 220, y = 88 + Math.floor(i / 2) * 64;
-    return `<text x="${x}" y="${y}" style="font:800 30px ${FONT};fill:${C.ink}">${val}</text>
-  <text x="${x}" y="${y + 20}" style="font:500 13px ${FONT};fill:${C.steel}">${label}</text>`;
+    const x = 26 + (i % 2) * 214, y = 74 + Math.floor(i / 2) * 70;
+    return `<rect x="${x}" y="${y}" width="200" height="58" rx="12" fill="#ffffff" stroke="#eaf2ff" stroke-width="1"/>
+  <text x="${x + 18}" y="${y + 36}" style="font:800 28px ${FONT};fill:${C.ink}">${val}</text>
+  <text x="${x + 182}" y="${y + 38}" text-anchor="end" style="font:600 12px ${FONT};fill:${C.steel};letter-spacing:.06em">${label.toUpperCase()}</text>`;
   }).join("\n  ")}
-  <text x="28" y="208" style="font:500 11px ${FONT};fill:${C.steel}">Updated ${new Date().toISOString().slice(0, 10)} · real GitHub API data</text>`;
-  return card(460, 230, inner);
+  <text x="26" y="222" style="font:500 11px ${FONT};fill:#aab8cc">@${esc(user.login)} · updated ${new Date().toISOString().slice(0, 10)} · GitHub API</text>`;
+  return frame(440, 236, "ACTIVITY · LIVE", inner);
 }
 
 function languagesCard(langTotals) {
   const total = Object.values(langTotals).reduce((a, b) => a + b, 0) || 1;
   const top = Object.entries(langTotals).sort((a, b) => b[1] - a[1]).slice(0, 6);
-  let y = 78;
+  let y = 76;
   const rows = top.map(([name, bytes]) => {
-    const pct = ((bytes / total) * 100);
-    const w = Math.max(6, (pct / 100) * 300);
-    const row = `<text x="28" y="${y - 6}" style="font:600 13px ${FONT};fill:${C.text}">${esc(name)}</text>
-  <text x="416" y="${y - 6}" text-anchor="end" style="font:600 13px ${FONT};fill:${C.steel}">${pct.toFixed(1)}%</text>
-  <rect x="28" y="${y}" width="388" height="8" rx="4" fill="${C.soft}"/>
-  <rect x="28" y="${y}" width="${(pct / 100) * 388}" height="8" rx="4" fill="${C.accent}"/>`;
-    y += 40;
+    const pct = (bytes / total) * 100;
+    const row = `<text x="26" y="${y - 5}" style="font:600 13px ${FONT};fill:${C.text}">${esc(name)}</text>
+  <text x="414" y="${y - 5}" text-anchor="end" style="font:600 12px ${FONT};fill:${C.steel}">${pct.toFixed(1)}%</text>
+  <rect x="26" y="${y}" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
+  <rect x="26" y="${y}" width="${Math.max(8, (pct / 100) * 388)}" height="9" rx="4.5" fill="url(#g-bar)"/>`;
+    y += 38;
     return row;
   }).join("\n  ");
-  const inner = `<text x="28" y="44" style="font:700 18px ${FONT};fill:${C.accent}">Top languages · public</text>
-  ${rows || `<text x="28" y="90" style="font:500 14px ${FONT};fill:${C.steel}">No public language data yet.</text>`}`;
-  return card(460, Math.max(120, 70 + top.length * 40), inner);
+  const inner = `${rows || `<text x="26" y="92" style="font:500 14px ${FONT};fill:${C.steel}">No public language data yet.</text>`}`;
+  return frame(440, Math.max(120, 66 + top.length * 38), "TOP LANGUAGES · PUBLIC", inner);
 }
 
 async function main() {

@@ -1,27 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="240" viewBox="0 0 1600 240" role="img" aria-label="Stay curious. Ship relentlessly. Elevate others.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="240" viewBox="0 0 1600 240" role="img" aria-label="Stay curious. Ship relentlessly. Elevate others. 「未来是创造出来的。」 NODE · 未来设计 · EST. 2026">
   <defs>
-    <linearGradient id="fh-sky" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="fh-light" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#f4f9ff"/><stop offset="1" stop-color="#e3eeff"/>
     </linearGradient>
+    <linearGradient id="fh-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#0e1830"/>
+    </linearGradient>
     <style>
-      .ph{font:600 italic 26px Georgia,serif;fill:#2a3645}
-      .jp{font:600 16px -apple-system,Segoe UI,sans-serif;fill:#9db4d6;letter-spacing:.3em}
+      .bg{fill:url(#fh-light)}
+      .w1{fill:#d6e6ff;opacity:.7} .w2{fill:#c4dbff;opacity:.6}
+      .wave{stroke:#bcd6ff}
+      .ph{font:italic 600 26px Georgia,serif;fill:#1f2733}
+      .zh{font:600 16px -apple-system,Segoe UI,sans-serif;fill:#9db4d6;letter-spacing:.3em}
       .sg{font:600 13px -apple-system,Segoe UI,sans-serif;fill:#7c8aa0;letter-spacing:.16em}
+      .moon{fill:#ffffff;opacity:.9} .moonR{stroke:#cfe3ff}
+      .star{fill:#9cc0ef}
+      @media (prefers-color-scheme: dark){
+        .bg{fill:url(#fh-dark)} .w1{fill:#16243f;opacity:.8} .w2{fill:#1d3052;opacity:.7}
+        .wave{stroke:#2b486f} .ph{fill:#e7eefb} .zh{fill:#5e7ba8} .sg{fill:#7e90ad}
+        .moon{fill:#cfe0ff;opacity:.85} .moonR{stroke:#34507f} .star{fill:#bcd6ff}
+      }
     </style>
   </defs>
-  <rect width="1600" height="240" fill="url(#fh-sky)"/>
 
-  <!-- sumi-e horizon: distant range + calm water lines -->
-  <path d="M0 168 Q220 120 420 156 T880 150 Q1120 118 1340 156 T1600 150 L1600 240 L0 240 Z" fill="#d6e6ff" opacity="0.7"/>
-  <path d="M0 196 Q300 172 620 190 T1240 188 T1600 184 L1600 240 L0 240 Z" fill="#c4dbff" opacity="0.6"/>
-  <g stroke="#bcd6ff" stroke-width="1" opacity="0.7">
+  <rect class="bg" width="1600" height="240"/>
+
+  <!-- twinkling stars -->
+  <g class="star">
+    <circle cx="220" cy="54" r="2.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="92" r="1.6"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="40" r="1.8"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="60" r="1.8"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1260" cy="98" r="1.6"><animate attributeName="opacity" values="1;0.25;1" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="1400" cy="48" r="2.2"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- drifting particles -->
+  <g class="star" opacity="0.7">
+    <circle cx="0" cy="120" r="1.8"><animate attributeName="cx" values="-20;1620" dur="26s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="150" r="1.4"><animate attributeName="cx" values="-200;1620" dur="34s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="96"  r="1.4"><animate attributeName="cx" values="-600;1620" dur="40s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- horizon -->
+  <path class="w1" d="M0 168 Q220 120 420 156 T880 150 Q1120 118 1340 156 T1600 150 L1600 240 L0 240 Z"/>
+  <path class="w2" d="M0 196 Q300 172 620 190 T1240 188 T1600 184 L1600 240 L0 240 Z"/>
+  <g class="wave" stroke-width="1" opacity="0.7" fill="none">
     <line x1="120" y1="214" x2="320" y2="214"/><line x1="1280" y1="214" x2="1480" y2="214"/>
     <line x1="200" y1="226" x2="360" y2="226"/><line x1="1240" y1="226" x2="1400" y2="226"/>
   </g>
-  <circle cx="1300" cy="78" r="34" fill="#ffffff" opacity="0.9"/>
-  <circle cx="1300" cy="78" r="34" fill="none" stroke="#cfe3ff" stroke-width="1.2"/>
 
-  <text x="800" y="80"  text-anchor="middle" class="jp">「未来是创造出来的。」</text>
+  <!-- moon -->
+  <circle class="moon" cx="1300" cy="78" r="34"><animate attributeName="opacity" values="0.7;1;0.7" dur="6s" repeatCount="indefinite"/></circle>
+  <circle class="moonR" cx="1300" cy="78" r="34" fill="none" stroke-width="1.2"/>
+
+  <text x="800" y="80"  text-anchor="middle" class="zh">「未来是创造出来的。」</text>
   <text x="800" y="118" text-anchor="middle" class="ph">Stay curious. Ship relentlessly. Elevate others.</text>
   <text x="800" y="150" text-anchor="middle" class="sg">NODE · 未来设计 · EST. 2026</text>
 </svg>
