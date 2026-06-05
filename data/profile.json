@@ -1,0 +1,52 @@
+{
+  "$schema": "./profile.schema.json",
+  "handle": "St0lym",
+  "name": "Jack Marques",
+  "alias": "Node",
+  "roles": ["AI Systems Architect", "Researcher", "Founder of Stakon"],
+  "tagline": "Designing systems that create impact.",
+  "location": "Paris, France",
+  "website": "https://stolym.dev",
+  "status": "Available for consulting",
+  "about": [
+    "I build AI systems, autonomous infrastructure and experimental tools designed to transform complex ideas into operational products.",
+    "My work sits at the intersection of artificial intelligence, distributed systems, research, product architecture and automation."
+  ],
+  "philosophy": "Stay curious. Ship relentlessly. Elevate others.",
+  "jp": {
+    "hero": "未来をデザインする",
+    "footer": "「未来は、創るものだ。」",
+    "seal": "未来設計"
+  },
+  "skills": {
+    "AI / ML": 0.95,
+    "System Design": 0.85,
+    "Backend Engineering": 0.8,
+    "Frontend Design": 0.7,
+    "DevOps & Cloud": 0.75,
+    "Research & Data": 0.9
+  },
+  "workflow": ["Discover", "Design", "Build", "Test", "Deploy"],
+  "research": [
+    "Autonomous agent orchestration",
+    "Frontier small language models",
+    "Representation learning and embeddings",
+    "Hypercomplex neural architectures",
+    "AI-native company infrastructure",
+    "Retrieval, memory and code intelligence"
+  ],
+  "stack": {
+    "languages": ["TypeScript", "Python", "Go", "Rust", "JavaScript"],
+    "frameworks": ["Next.js", "React", "Node.js", "Tailwind"],
+    "data": ["PostgreSQL", "Redis", "Prisma", "GraphQL", "Kafka"],
+    "cloud": ["Docker", "AWS", "GitHub Actions", "Jupyter"]
+  },
+  "links": {
+    "website": "https://stolym.dev",
+    "github": "https://github.com/St0lym",
+    "linkedin": "https://linkedin.com/in/st0lym",
+    "x": "https://x.com/St0lym_",
+    "email": "hello@stolym.dev"
+  },
+  "_notes": "Values here are the single source of truth for scripts/generate-profile.mjs. No GitHub metrics are stored here — those are fetched live so nothing is ever fictional or stale."
+}

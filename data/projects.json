@@ -1,0 +1,55 @@
+{
+  "$comment": "Featured systems. `repo` is the GitHub slug (owner/name); leave null until the repo is public. The README links to repo when present, else to the website.",
+  "featured": [
+    {
+      "id": "stakon",
+      "name": "Stakon",
+      "kind": "Holding · Ecosystem",
+      "description": "Holding and operating ecosystem for AI-native ventures.",
+      "tech": ["TypeScript", "Next.js", "Monorepo"],
+      "repo": null,
+      "url": "https://stolym.dev",
+      "asset": "assets/projects/stakon.svg"
+    },
+    {
+      "id": "cerberus",
+      "name": "Cerberus",
+      "kind": "Zero-trust · Orchestration",
+      "description": "Zero-trust orchestration for autonomous, distributed systems.",
+      "tech": ["Go", "Docker", "Kubernetes"],
+      "repo": null,
+      "url": null,
+      "asset": "assets/projects/cerberus.svg"
+    },
+    {
+      "id": "caishen",
+      "name": "Caishen",
+      "kind": "Strategic Intelligence · Signals",
+      "description": "Strategic intelligence engine for financial signals & analytics.",
+      "tech": ["TypeScript", "PostgreSQL", "Python"],
+      "repo": null,
+      "url": null,
+      "asset": "assets/projects/caishen.svg"
+    },
+    {
+      "id": "mappy",
+      "name": "Mappy",
+      "kind": "Geospatial · Extraction",
+      "description": "Geospatial extraction & mapping intelligence for modern apps.",
+      "tech": ["TypeScript", "Node.js", "PostGIS"],
+      "repo": null,
+      "url": null,
+      "asset": "assets/projects/mappy.svg"
+    },
+    {
+      "id": "research",
+      "name": "Research",
+      "kind": "Open Lab · Frontier",
+      "description": "Open lab for autonomous agents, small models & code intelligence.",
+      "tech": ["Python", "Jupyter", "PyTorch"],
+      "repo": null,
+      "url": null,
+      "asset": "assets/projects/research.svg"
+    }
+  ]
+}

@@ -1,237 +1,134 @@
-<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║   St0lym / St0lym  ·  GitHub Profile README                           ║ -->
-<!-- ║   未来をデザインする  ·  Design the future                            ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
+<!-- ╔══════════════════════════════════════════════════════════════════════╗
+     ║  St0lym / St0lym  ·  GitHub profile                                   ║
+     ║  Visual system lives in /assets — this file is composition + text.   ║
+     ║  Hero is an SVG placeholder today; swap to .webp art (see assets/).   ║
+     ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<!--
-  Hero illustration:
-  Drop your generated artwork at  assets/hero.png  (wide landscape, ~1600x520).
-  Light + dark variants are supported via the <picture> tag below.
--->
-
+<!-- ░░░░░░░░░░░░░░░░░░░░  HERO  ░░░░░░░░░░░░░░░░░░░░ -->
 <div align="center">
-
 <a href="https://stolym.dev">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero.png">
-    <img src="assets/hero.png" alt="St0lym — Design the future" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/hero-light.svg">
+    <img src="./assets/hero/hero-light.svg" alt="St0lym — Jack Marques / Node · AI Systems Architect · Researcher · Founder of Stakon · Designing systems that create impact." width="100%">
   </picture>
 </a>
-
-<br/>
-
-# St0lym
-
-### Jack Marques · `Node`
-
-**Builder** • **Researcher** • **Founder**
-
-*I build intelligent systems and products that solve real problems and push the state of the art.*
-
-<br/>
-
-<!-- Identity badges -->
-[![Location](https://img.shields.io/badge/Paris-France-1f6feb?style=flat-square&logo=googlemaps&logoColor=white&labelColor=f0f6ff&color=1f6feb)](https://maps.google.com/?q=Paris,France)
-[![Website](https://img.shields.io/badge/stolym.dev-1f6feb?style=flat-square&logo=safari&logoColor=white&labelColor=f0f6ff&color=1f6feb)](https://stolym.dev)
-[![Status](https://img.shields.io/badge/●_Available_for_consulting-3fb950?style=flat-square&labelColor=f0f6ff&color=eafff0)](mailto:hello@stolym.dev)
-
-<br/>
-
-> ### *"We don't follow the future. We build the systems that create it."*
-> — **Node**
-
-`探求` · `創造` · `影響`  —  *Explore · Create · Impact*
-
 </div>
 
----
+<!-- ░░░░░░░░░░░░░░░░░░░░  IDENTITY / ABOUT  ░░░░░░░░░░░░░░░░░░░░ -->
+## About
 
-## <samp>&lt;/&gt;</samp> &nbsp;About Me
-
-<table>
+<table border="0">
 <tr>
-<td width="58%" valign="top">
+<td width="72%" valign="top">
 
-**AI Systems Builder & Researcher.**
+I build **AI systems**, **autonomous infrastructure** and experimental tools
+designed to transform complex ideas into operational products.
 
-I design, build, and ship systems that combine **AI**, **distributed
-infrastructure**, and **product thinking** to create meaningful impact.
-
-From idea to architecture to production — I work end-to-end, with a bias
-toward evidence, clarity, and things that actually get used.
+My work sits at the intersection of **artificial intelligence**, **distributed
+systems**, **research**, **product architecture** and **automation** — from the
+first question to the shipped system.
 
 </td>
-<td width="42%" valign="top">
+<td width="28%" valign="top" align="center">
 
-| | |
-|:--|:--|
-| 🧠 **Systems Thinker** | *End-to-end perspective* |
-| 🔬 **Research Driven** | *Insight → Impact* |
-| 📦 **Product Builder** | *From idea to adoption* |
-| 🎯 **Impact Focused** | *Tech for good & scale* |
+<img src="./assets/identity/node-avatar.svg" width="120" alt="Node"><br>
+<sub><b>Paris, France</b><br>
+<a href="https://stolym.dev">stolym.dev</a> · open to consulting</sub>
 
 </td>
 </tr>
 </table>
 
----
+<!-- ░░░░░░░░░░░░░░░░░░░░  FEATURED SYSTEMS  ░░░░░░░░░░░░░░░░░░░░ -->
+## Featured Systems
 
-## ⭐ &nbsp;Featured Repositories
-
-<table>
+<table border="0">
 <tr>
-<td width="50%" valign="top">
-
-#### [Stakon](https://github.com/St0lym/Stakon) `Public`
-> Open-source toolkit for intelligent infrastructure.
-
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=next.js&logoColor=white)
-&nbsp;⭐ 128 &nbsp;·&nbsp; 🍴 24
-
-</td>
-<td width="50%" valign="top">
-
-#### [Cerberus](https://github.com/St0lym/Cerberus) `Public`
-> Zero-trust orchestration layer for distributed systems.
-
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-&nbsp;⭐ 98 &nbsp;·&nbsp; 🍴 18
-
-</td>
+<td width="50%"><a href="https://stolym.dev"><img src="./assets/projects/stakon.svg" width="100%" alt="Stakon — holding and operating ecosystem for AI-native ventures"></a></td>
+<td width="50%"><img src="./assets/projects/cerberus.svg" width="100%" alt="Cerberus — zero-trust orchestration for autonomous, distributed systems"></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%"><img src="./assets/projects/caishen.svg" width="100%" alt="Caishen — strategic intelligence engine for financial signals and analytics"></td>
+<td width="50%"><img src="./assets/projects/mappy.svg" width="100%" alt="Mappy — geospatial extraction and mapping intelligence for modern apps"></td>
+</tr>
+</table>
 
-#### [Caishen](https://github.com/St0lym/Caishen) `Public`
-> Financial data engine & analytics platform.
+<!-- ░░░░░░░░░░░░░░░░░░░░  NODE SYSTEM MAP  ░░░░░░░░░░░░░░░░░░░░ -->
+## The Node System
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-&nbsp;⭐ 76 &nbsp;·&nbsp; 🍴 12
+<div align="center">
+<img src="./assets/diagrams/system-orbit.svg" width="74%" alt="Node system map: Research, Data, Products, Autonomous Systems and Stakon orbiting NODE">
+</div>
 
+<!-- ░░░░░░░░░░░░░░░░░░░░  SKILLS + WORKFLOW  ░░░░░░░░░░░░░░░░░░░░ -->
+<table border="0">
+<tr>
+<td width="46%" valign="middle" align="center">
+<img src="./assets/diagrams/skills-radar.svg" width="100%" alt="Skills radar across AI/ML, System Design, Backend, Frontend, DevOps and Research">
 </td>
-<td width="50%" valign="top">
+<td width="54%" valign="middle">
 
-#### [Mappy](https://github.com/St0lym/Mappy) `Public`
-> Minimal mapping library for modern web apps.
+### How I work
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-&nbsp;⭐ 64 &nbsp;·&nbsp; 🍴 9
+A consistent loop, from research to running system:
+
+<img src="./assets/diagrams/workflow.svg" width="100%" alt="Workflow: Discover, Design, Build, Test, Deploy">
 
 </td>
 </tr>
 </table>
 
-<div align="right"><a href="https://github.com/St0lym?tab=repositories"><samp>View all repositories →</samp></a></div>
+<!-- ░░░░░░░░░░░░░░░░░░░░  RESEARCH / CURRENT FOCUS  ░░░░░░░░░░░░░░░░░░░░ -->
+<div align="center">
+<img src="./assets/sections/research-strip.svg" width="100%" alt="Research and frontier">
+</div>
 
----
+I work in the open on a small number of hard problems:
 
-## 🛠️ &nbsp;Tech Stack
+<div align="center">
+<img src="./assets/diagrams/current-focus.svg" width="80%" alt="Current research focus: autonomous agent orchestration, frontier small language models, representation learning and embeddings, hypercomplex neural architectures, AI-native company infrastructure, retrieval, memory and code intelligence">
+</div>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░  TECH  ░░░░░░░░░░░░░░░░░░░░ -->
+## Tools of the trade
 
 <div align="center">
 
-**Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-
-**Frameworks & Frontend**
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-
-**Data & Infrastructure**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-
-**DevOps & Cloud**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+`TypeScript` · `Python` · `Go` · `Rust` &nbsp;|&nbsp; `Next.js` · `React` · `Node.js` &nbsp;|&nbsp; `PostgreSQL` · `Redis` · `Kafka` · `GraphQL` &nbsp;|&nbsp; `Docker` · `AWS` · `GitHub Actions`
 
 </div>
 
----
+<!-- ░░░░░░░░░░░░░░░░░░░░  LIVE GITHUB DATA  ░░░░░░░░░░░░░░░░░░░░ -->
+## Activity
 
-## 📊 &nbsp;GitHub Statistics
-
+<!-- All metrics below are pulled live from the GitHub API at render time —
+     no figures are hand-written, so nothing here is ever fictional or stale. -->
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=St0lym&show_icons=true&count_private=true&hide_border=true&title_color=1f6feb&icon_color=1f6feb&text_color=57606a&bg_color=ffffff" alt="St0lym GitHub stats" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=St0lym&hide_border=true&background=ffffff&ring=1f6feb&fire=1f6feb&currStreakLabel=1f6feb&sideLabels=57606a&dates=8b949e&currStreakNum=24292e&sideNums=24292e" alt="St0lym streak" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=St0lym&show_icons=true&count_private=true&hide=&hide_border=true&hide_title=true&card_width=440&title_color=1f6feb&icon_color=1f6feb&text_color=46566b&bg_color=ffffff" alt="Public GitHub stats for St0lym">
+&nbsp;
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=St0lym&layout=compact&hide_border=true&hide_title=true&langs_count=8&card_width=320&title_color=1f6feb&text_color=46566b&bg_color=ffffff" alt="Top public languages for St0lym">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=St0lym&layout=compact&hide_border=true&title_color=1f6feb&text_color=57606a&bg_color=ffffff&langs_count=8" alt="Top languages" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=St0lym&bg_color=ffffff&color=1f6feb&line=1f6feb&point=1f6feb&area=true&area_color=eaf2ff&hide_border=true" width="98%" alt="Contribution graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=St0lym&bg_color=ffffff&color=1f6feb&line=1f6feb&point=1f6feb&area=true&area_color=eaf2ff&hide_border=true&hide_title=true" width="96%" alt="Recent contribution activity for St0lym">
 
 </div>
 
----
+<!-- ░░░░░░░░░░░░░░░░░░░░  PHILOSOPHY  ░░░░░░░░░░░░░░░░░░░░ -->
+<div align="center">
+<img src="./assets/sections/philosophy-strip.svg" width="100%" alt="The best way to predict the future is to build it. — Alan Kay">
+</div>
 
-## 🔭 &nbsp;Current Focus
-
-- **Building AI-native developer tools** that make builders faster and sharper.
-- **Researching autonomous systems** & intelligent infrastructure.
-- **Shipping products** that empower creators and teams.
-- **Growing open-source ecosystems** — sustainably, with care.
-
----
-
-## 🧭 &nbsp;How I Work
-
-```text
-01 · DISCOVER  →  02 · DESIGN  →  03 · BUILD  →  04 · TEST  →  05 · DEPLOY
-   Research &       Strategy &      Code &        Validate &     Ship &
-   Insight          Architecture    Prototype     Iterate        Monitor
-```
-
-> *"The best way to predict the future is to build it."* — **Alan Kay**
-
----
-
-## 🤝 &nbsp;Let's Connect
+<!-- ░░░░░░░░░░░░░░░░░░░░  CONNECT  ░░░░░░░░░░░░░░░░░░░░ -->
+## Connect
 
 <div align="center">
 
-*Let's build the future — together.*
-
-[![Website](https://img.shields.io/badge/Website-stolym.dev-1f6feb?style=for-the-badge&logo=safari&logoColor=white)](https://stolym.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-in/st0lym-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/st0lym)
-[![X](https://img.shields.io/badge/X-@St0lym__-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/St0lym_)
-
-[![Email](https://img.shields.io/badge/Email-hello@stolym.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@stolym.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-@St0lym-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/St0lym)
-[![Discord](https://img.shields.io/badge/Discord-stolym-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/stolym)
+[**stolym.dev**](https://stolym.dev) &nbsp;·&nbsp; [**LinkedIn**](https://linkedin.com/in/st0lym) &nbsp;·&nbsp; [**X / Twitter**](https://x.com/St0lym_) &nbsp;·&nbsp; [**hello@stolym.dev**](mailto:hello@stolym.dev)
 
 </div>
 
----
-
+<!-- ░░░░░░░░░░░░░░░░░░░░  FOOTER  ░░░░░░░░░░░░░░░░░░░░ -->
 <div align="center">
-
-`「未来は、創るものだ。」` — *The future is something to create.*
-
-**Stay curious. Ship relentlessly. Elevate others.**
-
-<sub><samp>未来設計 · NODE · EST. 2026</samp></sub>
-
-![Profile views](https://komarev.com/ghpvc/?username=St0lym&style=flat-square&color=1f6feb&label=Profile+views)
-
+<img src="./assets/sections/footer-horizon.svg" width="100%" alt="Stay curious. Ship relentlessly. Elevate others. 「未来は、創るものだ。」 NODE · 未来設計 · EST. 2026">
 </div>
