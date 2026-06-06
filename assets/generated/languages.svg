@@ -14,25 +14,25 @@
   <text x="26" y="71" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">Jupyter Notebook</text>
   <text x="414" y="71" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">41.0%</text>
   <rect x="26" y="76" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="76" width="159.24096152850987" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="76" width="159.2272162544771" height="9" rx="4.5" fill="url(#g-bar)"/>
   <text x="26" y="109" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">C++</text>
   <text x="414" y="109" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">21.2%</text>
   <rect x="26" y="114" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="114" width="82.11026085060138" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="114" width="82.10317330211224" height="9" rx="4.5" fill="url(#g-bar)"/>
   <text x="26" y="147" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">HTML</text>
   <text x="414" y="147" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">16.3%</text>
   <rect x="26" y="152" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="152" width="63.08428883681159" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="152" width="63.07884356174605" height="9" rx="4.5" fill="url(#g-bar)"/>
   <text x="26" y="185" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">C#</text>
   <text x="414" y="185" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">9.2%</text>
   <rect x="26" y="190" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="190" width="35.75737665934792" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="190" width="35.75429017370906" height="9" rx="4.5" fill="url(#g-bar)"/>
   <text x="26" y="223" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">TypeScript</text>
   <text x="414" y="223" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">4.2%</text>
   <rect x="26" y="228" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="228" width="16.476628668307843" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="228" width="16.475206447705755" height="9" rx="4.5" fill="url(#g-bar)"/>
   <text x="26" y="261" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">Python</text>
   <text x="414" y="261" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">2.9%</text>
   <rect x="26" y="266" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="266" width="11.101922219183011" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="266" width="11.100963929546172" height="9" rx="4.5" fill="url(#g-bar)"/>
 </svg>
