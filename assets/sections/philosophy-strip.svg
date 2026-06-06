@@ -13,8 +13,8 @@
     </linearGradient>
     <style>
       .bg{fill:url(#ps-light)}
-      .q{font:italic 600 30px Georgia,serif;fill:#1f2733}
-      .a{font:600 15px -apple-system,Segoe UI,sans-serif;fill:#1f6feb;letter-spacing:.1em}
+      .q{font:500 31px "Segoe UI",system-ui,Roboto,Inter,Helvetica,Arial,sans-serif;letter-spacing:.02em;fill:#1f2733}
+      .a{font:600 14px "Segoe UI",system-ui,Roboto,Inter,sans-serif;fill:#1f6feb;letter-spacing:.18em}
       .mark{fill:#cfe3ff} .ring{stroke:#bcd6ff}
       @media (prefers-color-scheme: dark){
         .bg{fill:url(#ps-dark)} .q{fill:#e7eefb} .a{fill:#6aa6ff}

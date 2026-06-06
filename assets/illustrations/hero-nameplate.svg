@@ -25,10 +25,38 @@
     </style>
   </defs>
 
-  <!-- orbital accents (animated) -->
+  <!-- orbital accents -->
   <g fill="none" stroke-width="1.2" class="ring" opacity="0.8">
     <ellipse cx="150" cy="150" rx="92" ry="38" transform="rotate(-18 150 150)"/>
+    <ellipse cx="150" cy="150" rx="56" ry="22" transform="rotate(-18 150 150)" opacity="0.6"/>
     <ellipse cx="950" cy="150" rx="92" ry="38" transform="rotate(18 950 150)"/>
+    <ellipse cx="950" cy="150" rx="56" ry="22" transform="rotate(18 950 150)" opacity="0.6"/>
+  </g>
+
+  <!-- orbiting planets -->
+  <g transform="rotate(-18 150 150)">
+    <g class="acc">
+      <circle r="9" opacity="0.18"/>
+      <circle r="4.5"/>
+      <animateMotion dur="15s" repeatCount="indefinite" rotate="auto"
+        path="M58,150 a92,38 0 1,1 184,0 a92,38 0 1,1 -184,0"/>
+    </g>
+    <circle r="2.6" class="acc" opacity="0.85">
+      <animateMotion dur="9s" repeatCount="indefinite"
+        path="M94,150 a56,22 0 1,0 112,0 a56,22 0 1,0 -112,0"/>
+    </circle>
+  </g>
+  <g transform="rotate(18 950 150)">
+    <g class="acc">
+      <circle r="9" opacity="0.18"/>
+      <circle r="4.5"/>
+      <animateMotion dur="17s" repeatCount="indefinite" rotate="auto"
+        path="M858,150 a92,38 0 1,0 184,0 a92,38 0 1,0 -184,0"/>
+    </g>
+    <circle r="2.6" class="acc" opacity="0.85">
+      <animateMotion dur="11s" repeatCount="indefinite"
+        path="M894,150 a56,22 0 1,1 112,0 a56,22 0 1,1 -112,0"/>
+    </circle>
   </g>
   <g class="acc">
     <circle cx="150" cy="112" r="3.2"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.2s" repeatCount="indefinite"/></circle>

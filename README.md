@@ -39,7 +39,7 @@ first question to the shipped system.
 </td>
 <td width="28%" valign="top" align="center">
 
-<img src="./assets/illustrations/node-avatar.webp" width="150" alt="Node — portrait" style="border-radius:12px">
+<img src="./assets/illustrations/node-avatar.svg" width="150" alt="Node — portrait">
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ I work in the open on a small number of hard problems:
 
 <div align="center">
 
-[**st0lym.stakon.fr**](https://st0lym.stakon.fr) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/jacques-marques-497a13168/) &nbsp;·&nbsp; [**X / Twitter**](https://x.com/St0lym_) &nbsp;·&nbsp; [**GitHub**](https://github.com/St0lym)
+[**st0lym.stakon.fr**](https://st0lym.stakon.fr) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/jacques-marques-497a13168/) &nbsp;·&nbsp; [**X / Twitter**](https://x.com/St0lym_) &nbsp;·&nbsp; [**GitHub**](https://github.com/St0lym) &nbsp;·&nbsp; [**Email**](mailto:jacques.marques@epitech.eu)
 
 </div>
 

@@ -10,9 +10,9 @@
       .bg{fill:url(#fh-light)}
       .w1{fill:#d6e6ff;opacity:.7} .w2{fill:#c4dbff;opacity:.6}
       .wave{stroke:#bcd6ff}
-      .ph{font:italic 600 26px Georgia,serif;fill:#1f2733}
-      .zh{font:600 16px -apple-system,Segoe UI,sans-serif;fill:#9db4d6;letter-spacing:.3em}
-      .sg{font:600 13px -apple-system,Segoe UI,sans-serif;fill:#7c8aa0;letter-spacing:.16em}
+      .ph{font:500 26px "Segoe UI",system-ui,Roboto,Inter,Helvetica,Arial,sans-serif;letter-spacing:.035em;fill:#1f2733}
+      .zh{font:500 16px "Segoe UI",system-ui,Roboto,sans-serif;fill:#9db4d6;letter-spacing:.34em}
+      .sg{font:600 13px "Segoe UI",system-ui,Roboto,sans-serif;fill:#7c8aa0;letter-spacing:.2em}
       .moon{fill:#ffffff;opacity:.9} .moonR{stroke:#cfe3ff}
       .star{fill:#9cc0ef}
       @media (prefers-color-scheme: dark){

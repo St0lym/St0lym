@@ -46,7 +46,7 @@
     "github": "https://github.com/St0lym",
     "linkedin": "https://www.linkedin.com/in/jacques-marques-497a13168/",
     "x": "https://x.com/St0lym_",
-    "email": "hello@stolym.dev"
+    "email": "jacques.marques@epitech.eu"
   },
   "_notes": "Values here are the single source of truth for scripts/generate-profile.mjs. No GitHub metrics are stored here — those are fetched live so nothing is ever fictional or stale."
 }
