@@ -12,27 +12,27 @@
   <text x="58" y="36" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#1f6feb;letter-spacing:.14em">TOP LANGUAGES · PUBLIC</text>
   <line x1="26" y1="50" x2="414" y2="50" stroke="#eaf2ff" stroke-width="1"/>
   <text x="26" y="71" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">C++</text>
-  <text x="414" y="71" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">37.1%</text>
+  <text x="414" y="71" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">35.8%</text>
   <rect x="26" y="76" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="76" width="143.87981109818412" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="76" width="138.97939766479757" height="9" rx="4.5" fill="url(#g-bar)"/>
   <text x="26" y="109" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">HTML</text>
-  <text x="414" y="109" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">28.5%</text>
+  <text x="414" y="109" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">30.2%</text>
   <rect x="26" y="114" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="114" width="110.54106352942193" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="114" width="117.26140294624447" height="9" rx="4.5" fill="url(#g-bar)"/>
   <text x="26" y="147" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">C#</text>
-  <text x="414" y="147" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">16.1%</text>
+  <text x="414" y="147" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">15.6%</text>
   <rect x="26" y="152" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="152" width="62.656780599862316" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="152" width="60.522748542127744" height="9" rx="4.5" fill="url(#g-bar)"/>
   <text x="26" y="185" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">TypeScript</text>
-  <text x="414" y="185" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">7.4%</text>
+  <text x="414" y="185" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">7.2%</text>
   <rect x="26" y="190" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="190" width="28.871595288735385" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="190" width="27.88825542808134" height="9" rx="4.5" fill="url(#g-bar)"/>
   <text x="26" y="223" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">C</text>
-  <text x="414" y="223" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">4.3%</text>
+  <text x="414" y="223" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">4.1%</text>
   <rect x="26" y="228" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="228" width="16.650237746520837" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="228" width="16.0831460322674" height="9" rx="4.5" fill="url(#g-bar)"/>
   <text x="26" y="261" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">Python</text>
-  <text x="414" y="261" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">1.9%</text>
+  <text x="414" y="261" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">1.8%</text>
   <rect x="26" y="266" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
   <rect x="26" y="266" width="8" height="9" rx="4.5" fill="url(#g-bar)"/>
 </svg>
