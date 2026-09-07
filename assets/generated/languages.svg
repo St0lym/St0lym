@@ -1,38 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="294" viewBox="0 0 440 294" role="img" aria-label="TOP LANGUAGES · PUBLIC">
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="120" viewBox="0 0 440 120" role="img" aria-label="TOP LANGUAGES · PUBLIC">
   <defs>
     <linearGradient id="g-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f4f9ff"/></linearGradient>
     <linearGradient id="g-ac" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1f6feb"/></linearGradient>
     <linearGradient id="g-bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#73c9e8"/></linearGradient>
   </defs>
-  <rect x="1" y="1" width="438" height="292" rx="16" fill="url(#g-bg)" stroke="#d6e4fb" stroke-width="1.4"/>
+  <rect x="1" y="1" width="438" height="118" rx="16" fill="url(#g-bg)" stroke="#d6e4fb" stroke-width="1.4"/>
   <g transform="translate(26,22)">
     <path d="M9 0 L18 5 L18 15 L9 20 L0 15 L0 5 Z" fill="#fff" stroke="url(#g-ac)" stroke-width="1.6"/>
     <path d="M6 16 L6 4 L8 4 L13 12 L13 4 L15 4 L15 16 L13 16 L8 8 L8 16 Z" fill="url(#g-ac)"/>
   </g>
   <text x="58" y="36" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#1f6feb;letter-spacing:.14em">TOP LANGUAGES · PUBLIC</text>
   <line x1="26" y1="50" x2="414" y2="50" stroke="#eaf2ff" stroke-width="1"/>
-  <text x="26" y="71" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">C++</text>
-  <text x="414" y="71" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">35.8%</text>
+  <text x="26" y="71" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">JavaScript</text>
+  <text x="414" y="71" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">100.0%</text>
   <rect x="26" y="76" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="76" width="138.97939766479757" height="9" rx="4.5" fill="url(#g-bar)"/>
-  <text x="26" y="109" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">HTML</text>
-  <text x="414" y="109" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">30.2%</text>
-  <rect x="26" y="114" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="114" width="117.26140294624447" height="9" rx="4.5" fill="url(#g-bar)"/>
-  <text x="26" y="147" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">C#</text>
-  <text x="414" y="147" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">15.6%</text>
-  <rect x="26" y="152" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="152" width="60.522748542127744" height="9" rx="4.5" fill="url(#g-bar)"/>
-  <text x="26" y="185" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">TypeScript</text>
-  <text x="414" y="185" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">7.2%</text>
-  <rect x="26" y="190" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="190" width="27.88825542808134" height="9" rx="4.5" fill="url(#g-bar)"/>
-  <text x="26" y="223" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">C</text>
-  <text x="414" y="223" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">4.1%</text>
-  <rect x="26" y="228" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="228" width="16.0831460322674" height="9" rx="4.5" fill="url(#g-bar)"/>
-  <text x="26" y="261" style="font:600 13px -apple-system,Segoe UI,Inter,sans-serif;fill:#46566b">Python</text>
-  <text x="414" y="261" text-anchor="end" style="font:600 12px -apple-system,Segoe UI,Inter,sans-serif;fill:#7c8aa0">1.8%</text>
-  <rect x="26" y="266" width="388" height="9" rx="4.5" fill="#eaf2ff"/>
-  <rect x="26" y="266" width="8" height="9" rx="4.5" fill="url(#g-bar)"/>
+  <rect x="26" y="76" width="388" height="9" rx="4.5" fill="url(#g-bar)"/>
 </svg>
