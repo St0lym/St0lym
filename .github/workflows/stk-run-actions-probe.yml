@@ -1,0 +1,15 @@
+name: STK Run Actions Probe
+on:
+  push:
+    branches:
+      - tmp/stk-run-actions-probe-20260929
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe
+        run: echo "actions-probe-ok"
